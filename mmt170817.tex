@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx, amscd, mathrsfs}
+\usepackage[utf8]{inputenc}
+\usepackage[hmargin={3.5cm,3.5cm},top=4cm,bottom=4cm]{geometry}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{multicol}
+\graphicspath{ {img/} }
+
+
+\renewcommand{\bf}[1]{\textbf{#1}}
+\renewcommand{\it}[1]{\textit{#1}}
+\renewcommand{\tt}[1]{\texttt{#1}}
+\renewcommand{\rm}[1]{\mathrm{#1}}
+\renewcommand{\sp}[1]{\textsuperscript{#1}}
+\renewcommand{\p}{^{\prime}}
+\renewcommand{\Fobs}{{F^{\rm{obs}}}}
+\renewcommand{\tobs}{{t_{\rm{obs}}}}
+\renewcommand{\thetaobs}{{\theta_{\rm{obs}}}}
+\renewcommand{\fig}[3]{
+\begin{figure}
+\begin{center}
+\includegraphics[width=#2\linewidth]{#1}
+\label{#1}
+\caption{#3}
+\end{center}
+\end{figure}
+}
+
+\renewcommand{\cen}[1]{
+  \begin{center}
+  #1
+  \end{center}
+}
+
+\renewcommand{\xx}[1]{{x_{#1}}}
+\def \bangle{ \atopwithdelims \langle \rangle}
+
+\geometry{
+  paper=a4paper, % Change to letterpaper for US letter
+  top=1.5cm, % Top margin
+  bottom=1.5cm, % Bottom margin
+  left=2cm, % Left margin
+  right=2cm, % Right margin
+  %showframe, % Uncomment to show how the type block is set on the page
+}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+  basicstyle=\small,        % the size of the fonts that are used for the code
+  commentstyle=\color{blue},    % comment style
+  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+  keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+  keywordstyle=\color{red},       % keyword style
+  language=Fortran,                 % the language of the code
+  rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+  showstringspaces=false,          % underline spaces within strings only
+  showtabs=false,                  % show tabs within strings adding particular underscores
+  stringstyle=\color{green},     % string literal style
+  tabsize=2,	                   % sets default tabsize to 2 spaces
+  frame=single
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+\include{frontmatter}
+
+\tableofcontents
+
+\newpage
+\include{part1}
+
+\include{part2}
+
+\include{part3}
+
+
+
+\include{appendix}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\include{bib}
+
+\end{document}
