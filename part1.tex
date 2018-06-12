@@ -1,43 +1,84 @@
 \part{Introduction}
 
 \section{MMT170817 -- a historical event}
+Since August 17\sp{th} 2017, a succession of astronomical observations have occured. These observations pertain to a new paradigm of astronomy, namely \it{multi-messenger astronomy}. Hence, we will refer to the collection of these observations as MMT170817, for \{Multi-Messenger Transient 170817}.
+
+MMT170817 is the outcome of an extraordinary instrumental effort provided by each of the fields of this multi-messenger astronomy. The detection of gravitational waves has ground-breakingly entered the astronomical landscape in September of 2015, as gravitational waves from all three phases (inspiral, merger, ring-down) of the coalescence of a binary black hole were detected in the \it{two} interferometers of the LIGO Scientific Collaboration. After a total of five such two-instrument detections, the gravitational interferometer network was augmented with the French-Italian Virgo instrument on August 1\sp{st} 2017. 
+
+The first online gravitational wave detection of this \it{three}-instrument configuration occured on August 17\sp{th}. This signal is associated with the inspiral phase of the merger of a binary neutron star. This joint detection allowed for the first-in-history astronomically significant gravitational wave triangulation of the source in the sky. This triangulation is given in terms both of sky-projected position and distance, drawing a three dimensional error box in the Universe. A prompt but meticulous optical search for a new electromagnetic source in this error box led to the first ever direct observation of a kilonova and the nuclear processes therein, and of a strongly atypically-behaved multi-wavelength afterglow, the observation of which carries on at the time of writing. The observations of these electromagnetic counterparts and the identificatoin of NGC4993 as the host galaxy of the event were done by a hitherto unseen joint effort from the astronomical community as a whole, mobilizing an impressive amount of ground-based instrumental resources.
+
+With a slight delay with respect to the gravitational wave determined time of merger, the Fermi Gamma-ray Space Telescope and the INTEGRAL space observatory detected a weak short gamma ray burst, itself triangulated to a sky-position consistent with that indicated by the gravitational waves and the other electromagnetic counterparts.
+
+The gravitational, gamma ray and other counterparts of this event are unambiguously associated, and thus are the multi-messenger manifestation of the first binary neutron star merger witnessed directly.
+
+This work is a spark for the study of the merger of binary neutron stars. Focusing on the afterglow, we will through modelization attempt to a first understanding of this event and in particular of the outflow of matter produced by the merger and of the possible relativistic jet formed during the event.
 
 \section{Description of the multi-messenger observations}
 
 \subsection{GW170817: gravitational waves from the inspiral phase}
 
-\fig{gw}{0.35}{Spectrogram of a combination of both LIGO interferometers' data from GW170817 (\cite{37}). Note the non-detection of a ring-down signal.}
+The inspiral phase gravitational waves (GW) were detected for the $\sim$~3000 last orbits of the binary\footnote{The information containd in this subsection and the following was synthesized from the multi-messenger detection publications \cite{23, 37, 51, 52}.}. This signal GW170817, reproduced figure \ref{gw}, lasted $\sim$~100~s and ended at 12:41:04.4~UTC. It is the loudest gravitational wave signal detected yet, with a signal-to-noise ratio of 32.4. The GW signal infers masses in the range of 0.86 -- 2.26 $\Ms$ (at 2$\sigma$). Given the ranges of measured galactic black hole masses, which are substantially higher than these, and the measured masses of some galactic binary neutron stars, which are consitent with these, a binary neutron star is the most likely nature of the GW progenitor. This is further supported by the detection of electromagnietic counterparts to this GW signal, indicating the presence of matter in the circum-merger environment after the merger, and thus the unlikelyness of a black hole in the initial binary.
+
+The GW signal in the Virgo detector was low. This significantly constrained the localization of the source in the sky to a projected error box of 29~deg\sp{2}, and likely greatly decreased the duration of subsequent searches for electromagnetic counterparts.
+
+The GW signal luminosity distance to the source is $40_{-14}^{+8}$~Mpc, making of the GW and gamma ray bursts events the closest ever detected. This distance is further refined by combining GW data with EM observations of the host galaxy to $42.9\pm3.2$~Mpc. Similarly, the combination of the GW and EM data provides a viewing angle (from our light-of-sight to the angular momentum of the binary) constrained to being less than 28~deg.
+
+An essential feature of GW170817 is the non-detection of a postmerger ring-down signal, i.e. the signal from the gravitional radiation emitted by the relaxation of the merger product to its final state of equilibrium. This non-detection signifies either that the corresponding radiation was not emitted, which would likely be the case in the remnant object being a neutron star, or that the signal was to weak to be picked up. Moreover, had the final object been a black hole, its ring-down signal would have peaked at frequencies well out of the detectors' sensitive bands, given the masses at hand. In any event, the nature of the final object is undetermined by the GW signal.
+
+\fig{gw}{0.35}{Spectrogram of a combination of both LIGO interferometers' data from GW170817 (\cite{37}). Note the non-detection of a ring-down signal. The peak luminosity of the GW event is $\sim~9~\Ms c^2$/s (\cite{49}).}
+
 \subsection{GRB170817A: the gamma-ray burst}
+The gamma ray burst (GRB) event started 1.72~s after the GW data merger time. Its duration was 2.0~s, placing it in the short GRB class with a confidence level of $\sim$~72\%. GRB170817A's total isotropic-equivalent radiated energy was $\sim$~$10^{47}$~erg, around 4 orders of magnitude weaker that typical short gamma ray bursts, though photons with energies as high as 185~keV were emitted.
 
-As illustrated in figure \ref{yonetoku}, GRB170817A is an outlier of the $E_p$-$L_{\rm{iso}}$ relation, also know as the Yonetoku relation (\cite{35}). In this relation, $E_p$  and $L_{\rm{iso}}$ are the peak photon energy and isotropic equivalent luminosity of the burst at its peak.
+Moreover, it appears that the light curve of GRB170817A presents two distinct components, one lasting 0.58~s, and a later second lasting 1.1~s. Spectrally, the first component resembles a typical non-thermal short GRB emission, and the second on the other hand is best fit by a thermal emission of temperature $\sim$~10\sp{7}~K.
 
-This observation is the first which hints to the \it{atypical} character of GRB170817A.
+Furthermore, as illustrated in figure \ref{yonetoku}, GRB170817A is an outlier of the $E_p$-$L_{\rm{iso}}$ relation, also know as the Yonetoku relation (\cite{35}). In this relation which is broadly respected by short GRBs, $E_p$  and $L_{\rm{iso}}$ are the peak photon energy and isotropic equivalent luminosity of the burst at its peak, and they are positively correlated. Even when correcting for the possibly non-zero viewing angle, and placing the burst as seen closer to its axis, GRB170817A remains an outlier of the Yonetoku relation.
 
 \fig{yonetoku}{0.35}{The Yonetoku relation for the Swift BAT 4 catalog bursts (black crosses, \cite{36}) and GRB170817A. The values of $E_p$ and $L_{\rm{iso}}$ that would have likely been measured for other viewing angles form a line in this diagram.}
 
-Using a simple calculation to estimate the $E_p$ and $L_{\rm{iso}}$ values which would have been observed from different angles, it appears that this event is an outlier of the Yonetoku relation regardless of the viewing angle.
+All of these observations indicate the \it{atypical} character of GRB170817A and of MMT170817 as a whole. More precisely, these remarks lead to interrogations on the emission processes responsible for GRB170817A. Standard understanding of GRBs imply relativistic jets and energy dissipation into gamma radiation therein. Are GRBs from neutron star mergers comprehensible in such standard models? Are they a particular case of these models? Or do they require a specific modelling?
+
+Other weak short GRBs have been observed in the past. An example is GRB980425 which stood out as an atypical event among short GRBs for its low luminosity. It was then found (\cite{50}) that the internal shock model allowed such events, provided the outflow be slower and less energetic.
+
 
 \subsection{AT 2017gfo: the kilonova}
+The optical counterpart AT 2017gfo (IAU designation) was discovered $\sim$~11~h after the merger event. It was located in the lenticular galaxyNGC4993 within the ESO~508 group of galaxies in Hydra. Upon discovery, the $r$ band magnitude was measured to $\sim$~17, equivalent to an absolute magnitude of --16.
+
+In the following days, until dimming to non-detection limits of AT 2017gfo, spectra of the transient were measured. The time evolution of these spectra is illustrated figure \ref{kn}. These are associated with thermal radiation of an optically thick mass of dynamical (or tidal) ejecta from the merger event. It is understood that the neutron-rich matter ejected by the merger event is the site of $r$-process nucleosynthesis, that is the synthesis of extremely heavy nuclei by rapid neutron capture in a neutron-dense environment, and the subsequent decay of these nuclei to heavy elements such as the lanthanides and actinides. The decay of the nuclei are a heat source within the kilonova, and the extremely opaque medium composed of heavy nuclei insures its thermalization. Finally, the sudden decompresion of this once-neutron-star material into the rarified external medium drives the rapid expansion of3 the ejecta.
+
+This vision is further supported by the claim to the detection of atomic cesium and tellurium ($Z = 55$ and $52$)absorption lines in the transient's spectrum \cite{53}.
 
 \fig{kn}{0.35}{Time evolution of the spectrum of AT 2017gfo (\cite{38}).}
+
+
 \subsection{The afterglow signal}
+Counterparts in the X-ray and radio bands were detected to significant levels 9 days and 15 days post-merger. When the kilonova signal had sufficiently decayed at 150 days post-merger, an optical band afterglow was detected as emerging from the dimming kilonova signal.
+
+The afterglow photometry points in these bands until $\sim$~250~d post-merger are reported figure \ref{ag}. An essential feature of these afterglow light curves are their homothetic structure, i.e. their seems to exist a time-independent index $k$ such that for two frequencies $\nu$ and $\nu\p$, we have $F_\nu = \left( \frac{\nu}{\nu\p} \right)^k F_{\nu\p}$. 
+
+\fig{ag}{0.5}{Afterglow photometry points in various bands (\cite{29}). Notice the homothetical structure of the flux from band to band.}
+
+As we will shortly see, this structure is a first indication of which radiation process is at play in the afterglow, and subsequently allows to reduce the number of light curves considered for our study to a single one.
+
+
+Another important feature of this afterglow emission is that it is long-lived. Indeed, the radio flux increased steadily until $\sim$~160~d post-merger, then commenced a steady decrease and it still observed at the time of writing. A comparison of the afterglow of MMT170817 with some of the most long-lived short GRB afterglows from the total Swift catalog is shown in figure \ref{remnants}. It is evident that MMT170817 is pecliar with respect of all of these.
 
 \fig{remnants}{0.35}{Some of the most long-lived afterglows from the Swift catalog (doted lines, X-ray data), and the afterglow from MMT170817.}
 
-\section{Goal of this work and the afterglow of MMT170817 as an insight on the merger event}
+\section{Goal of this work: the afterglow of MMT170817 as an insight on the merger event}
 
-The merger of a binary neutron star is a complex phenomena. It most likely implies various physical components (compact objects, jets, ejectas, winds) which are subject to many dynamical and radiative processes (shock formation, nuclear processes, synchrotron emission, etc.). A coherent description of the binary neutron star merger phenomena, from the inspiral phase to the electromagnetic afterglow, is still to be found. Most likely, the combination of all the multi-messenger observations from a lerge number of events will be necessary to obtain this accurate description, each signal bearing the signature of the state of the phenomenon at different times.
+The merger of a binary neutron star is a complex phenomena. It most likely implies various physical components (compact objects, jets, ejectas, winds) which are subject to many dynamical and radiative processes (shock formation, nuclear processes, synchrotron emission, etc.). A coherent description of the binary neutron star merger phenomena, from the inspiral phase to the electromagnetic afterglow, is still to be found. Most likely, the combination of all the multi-messenger observations from a large number of events will be necessary to obtain this accurate description, as each signal bares the signature of the state of the phenomenon at different times.
 
 In particular, the afterglow holds information on the state of matters at late times, and is a first step one may take to approach the event in its entirety. The goal of this work is precisely to study the afterglow of MMT170817 in the perspective of later inferring information on the earlier phases of the event: the nature and formation of the resulting compact object, the origin of the gamma ray burst, the dynamical properties of the outflow, the development of the kilonova, etc.
 
 The questions this work adresses are thus the following:
 
 \begin{enumerate}
-	\item What is the geometry and the structure of the matter responsible for the afterglow?
+	\item What is the geometry and the structure of the outflow of matter responsible for the afterglow?
+	\item What are the characteristics of the circum-merger medium which this outflow penetrates?
 	\item By which means is the kinetic energy dissipated into the afterglow radiation?
-	\item What are the characteristics of the medium in which this matter evolves?
-	\item Was a relativitsic jet produced in the merger event?
+	\item Was a relativistic jet produced in the merger event?
 	\item By which angle do we currently see the system?
-	\item Which electromagnetic counterparts would we have seen, had we seen the event from different viewing angles?
+	\item Which afterglow signals would we have seen, had we seen the event from a different viewing angles?
 \end{enumerate}
 

@@ -7,8 +7,10 @@
 \usepackage{listings}
 \usepackage{lmodern}
 \usepackage{hyperref}
+\usepackage{caption}
 \usepackage{geometry}
 \usepackage{multicol}
+\usepackage{float}
 \graphicspath{ {img/} }
 
 
@@ -20,15 +22,26 @@
 \renewcommand{\p}{^{\prime}}
 \renewcommand{\Fobs}{{F^{\rm{obs}}}}
 \renewcommand{\tobs}{{t_{\rm{obs}}}}
-\renewcommand{\thetaobs}{{\theta_{\rm{obs}}}}
+\renewcommand{\thetaobs}{\theta_{\rm{obs}}}
+\renewcommand{\Ms}{M_{\odot}}
 \renewcommand{\fig}[3]{
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=#2\linewidth]{#1}
-\label{#1}
 \caption{#3}
+\label{#1}
+
 \end{center}
 \end{figure}
+}
+
+\renewcommand{\eq}[2]{
+\begin{equation}
+\label{#1}
+
+#2
+
+\end{equation}
 }
 
 \renewcommand{\cen}[1]{
