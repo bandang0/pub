@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 
-\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx, amscd, mathrsfs}
+\usepackage{amsmath}%,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx, amscd, mathrsfs}
 \usepackage[utf8]{inputenc}
 \usepackage[hmargin={3.5cm,3.5cm},top=4cm,bottom=4cm]{geometry}
 \usepackage{color}
@@ -9,8 +9,10 @@
 \usepackage{hyperref}
 \usepackage{caption}
 \usepackage{geometry}
+\usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{float}
+%\usepackage{breqn}
 \graphicspath{ {img/} }
 
 
@@ -51,6 +53,11 @@
 }
 
 \renewcommand{\xx}[1]{{x_{#1}}}
+
+\renewcommand{\glo}[3]{
+\bf{#1 (\it{#2}). }#3
+}
+
 \def \bangle{ \atopwithdelims \langle \rangle}
 
 \geometry{

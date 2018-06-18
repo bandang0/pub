@@ -1,7 +1,88 @@
 \section*{Appendix A: Terminology}
+\addcontentsline{toc}{section}{Appendix A: Glossary}
+
+The novelty of the observing of binary neutron star mergers and the diversity of models describing this phenomenon render the full  agreement of the high-energy community on some terms difficult. That is why a concise bilingual glossary is found here.
+
+\bf{Remnant (\it{Reste}). }All of the matter in the vicinity of the merger locus and which either was a part of the neutron stars or is being swept up by the latter.
+
+\glo{Quasi-spherical remnant}{}{}
+
 
 \section*{Appendix B: Details on the physics of afterglows}
+\addcontentsline{toc}{section}{Appendix B: Details on the physics of afterglows}
+\subsection*{B.1: Dissipation of kinetic energy in realtivistic shocks}
 
-$$ \int_0^1 dx x^2 = \frac{1}{3} $$
+We will derive here the equation for the conservation of energy in the collision of two masses at relativistic speeds with dissipation of kinetic enrgy to internal energy. For this consider a mass $M$ in relativistic motion at a Lorentz factor $\Gamma$ impacting a small mass $m$ at rest. What will be the final energy of the small mass?
 
-\section*{Appendix C: Supplementary figures}
+Let $\Gamma'$ denote the Lorentz factor of the joint mass $M + m$ after the collision. We suppose that some dissipation of kinetic energy has occured during the collision, and that the small mass has a rest energy $\gamma_i m c^2$ after the interaction.
+
+In an external rest frame, the conservation of energy and momentum thus reads:
+
+\begin{align}
+    \Gamma Mc^2 + mc^2 &= \Gamma' Mc^2 + \Gamma' \gamma_i m \\
+    \Gamma \beta M + 0 &= \Gamma' \beta' \gamma_i m
+\end{align}
+
+It follows the post-collision speed, which is rightly decelerated:
+
+\begin{equation}\label{ttt}
+    \beta' = \beta \frac{\Gamma M}{\Gamma M + m}
+\end{equation}
+
+Supposing a high initial Lorentz factor and a small $m/M$ mass ratio, we have $\beta \sim 1 - 1/2\Gamma^2$ and $\frac{\Gamma M}{\Gamma M + m} \sim 1 - m/\Gamma M$. Thus rearanging \ref{ttt} leads after some algebra to:
+
+\begin{equation}
+    \Gamma'^2 = \frac{\Gamma ^ 2}{1 + 2\Gamma \frac{m}{M}}
+\end{equation}
+
+and then:
+
+\begin{equation}
+    \frac{\Gamma}{\Gamma'} = 1 + \Gamma \frac{m}{M}
+\end{equation}
+
+Thus, we conclude that:
+
+\begin{align}
+    \gamma_i &= \frac{\Gamma M + m - \Gamma'M}{\Gamma'm} \\
+             &\sim \left( \frac{\Gamma}{\Gamma'} -1 \right)\frac{M}{m}\\
+             &\sim \Gamma'
+\end{align}
+
+And thus the overall energy conservation writes:
+
+\begin{equation}
+    \Gamma M + m = \Gamma'M + \Gamma'^2 m
+\end{equation}
+
+or in the continuous form after sweeping a mass $m(r)$ of exterior material:
+
+$$\Gamma_0 M + m(r) = \Gamma(r) M + \Gamma(r)^2 m(r) $$
+
+
+\subsection*{B.2: Scalings of $\nu_m$ and $\nu_c$}
+The synchrotron characteristic frequencies are found to scale as the following with the model parameters in the various dynamical phases of the afterglow. They are normalized to the parameters' values which we infer in the text. These scalings allow to compare the observation bands (X-ray, optical and radio) to the typical spectral regime shift frequencies, and thus to conclude that all the observation bands are within the same spectral regime.
+
+\bf{Coasting phase:}
+
+$$\nu_m = 10.2~\rm{GHz} \left(\frac{\Gamma_0}{10} \right)^{4} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{1/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2}$$
+
+
+$$\nu_c = 9.56 \times 10^8~\rm{GHz} \left(\frac{\Gamma_0}{10} \right)^{-4} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-3/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2}  \left(\frac{t_{\rm{obs}}}{10~\rm{d}} \right)^{-2}$$
+
+
+\bf{Deceleraton phase:}
+
+$$\nu_m = 1.78 \times 10^{-4}~\rm{Hz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{1/2}  \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2} \left(\frac{t_{\rm{obs}}}{100~\rm{d}} \right)^{-3/2} $$
+
+
+$$\nu_c = 4.38 \times 10^{21}~\rm{GHz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{-1/2} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-1} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2} \left(\frac{t_{\rm{obs}}}{100~\rm{d}} \right)^{-1/2}$$
+
+
+\bf{Newtonian phase:}
+
+$$\nu_m = 1.46 \times 10^{-10}~\rm{Hz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-1/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2} \left(\frac{t_{\rm{obs}}}{10^5~\rm{d}} \right)^{-1/2} $$
+
+$$\nu_c = 1.11 \times 10^{40}~\rm{GHz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{-3/5} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-9/10} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2} \left(\frac{t_{\rm{obs}}}{10^5~\rm{d}} \right)^{-1/5} $$
+
+\subsection*{B.3: Short discussion on the origin of magnetic fields in astrophysical shocks}
