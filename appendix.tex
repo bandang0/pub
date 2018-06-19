@@ -85,4 +85,38 @@ $$\nu_m = 1.46 \times 10^{-10}~\rm{Hz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right
 
 $$\nu_c = 1.11 \times 10^{40}~\rm{GHz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{-3/5} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-9/10} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2} \left(\frac{t_{\rm{obs}}}{10^5~\rm{d}} \right)^{-1/5} $$
 
-\subsection*{B.3: Short discussion on the origin of magnetic fields in astrophysical shocks}
+\subsection*{B.3: Scalings of $\Gamma$ and $r$ with $\tobs$ in the relativistic deceleration phase}
+
+In the relativistic deceleration phase of the dynamics of a mono-knetic remnant, we have:
+
+$$\Gamma(r) \simeq \Gamma_0 \left( \frac{R}{R_{\text{dec}}} \right)^{-3/2}$$
+
+What's more, we have:
+
+\begin{align}
+    d\tobs &= (\beta - 1) dt \\
+           &= \frac{1 - \beta}{\beta} \dr/c
+\end{align}
+
+Thus, using $\beta \simeq 1 - 1/2\Gamma^2$, we obtain:
+
+$$d\tobs = \frac{dr}{2\Gamma^2 c} $$
+
+Therefore, we have in the deceleration phase:
+
+\begin{align}
+    \tobs &= \int_{\text{coasting phase}} d\tobs + \int_{\text{dec. phase}} d\tobs \\
+          &\simeq \int_{\text{coasting phase}} \frac{dr}{2\Gamma^2 c} + \int_{\text{dec. phase}} \frac{dr}{2\Gamma^2 c} \\
+          &\simeq \frac{R_\text{dec}}{2\Gamma_0^2 c} + \int_{R_{\text{dec}}}^{r} \left( \frac{r}{R_{\text{dec}}} \right)^3 \frac{dr}{2\Gamma_0^2 c} \\
+          &\simeq \frac{R_{\text{dec}}}{8\Gamma_0^2 c}\left( \frac{r}{R_{\text{dec}}} \right)^4
+\end{align}
+
+In conclusion, in the relativistic deceleration phase, we have:
+
+\begin{align}
+    \tobs &\simeq \frac{R_{\text{dec}}}{8\Gamma_0^2 c}\left( \frac{r}{R_{\text{dec}}} \right)^4 \\
+    \Gamma &\simeq \sqrt{2} \Gamma_0 \left( \frac{\tobs}{R_{\text{dec}}/2\Gamma_0^2c} \right)^{-3/8}
+\end{align}
+
+Moreover, seeing as $R_{\text{dec}} \propto \Gamma_0^{-2/3}$, we notice that in the relativistic deceleration phase, the dynamics no longer depend on $\Gamma_0$.
+\subsection*{B.4: Short discussion on the origin of magnetic fields in astrophysical shocks}

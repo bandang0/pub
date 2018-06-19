@@ -1,33 +1,39 @@
 \part{Modelling the afterglow of MMT170817}
 
 %\begin{multicols}{2}
-\bf{Note on the physical origin of the afterglow.} As insisted upon in the introduction, MMT170817 is an \it{atypical} event. Nonetheless, the numerous observations of remnants and afterglows of transient electromagnetic events (such as supernovae and gamma ray bursts) indicate a common explanation of afterglows having timescales from days to years, such as that of MMT170817. Matter which is ejected during the previous phases of the phenomenon travels in the local external medium faster than the speed of sound. A shock thus forms at the interface of this shock with the interstellar medium. Interstellar material accumulates at this shock front, is excited and radiates. As the material accumulates, the shock decelerates. The exact nature and origin of the ejected matter, and the characteristics of the medium in which it evolves depends on the specific astrophysical phenomena at hand.
+As insisted upon in the introduction, the GRB and afterglow couterparts of MMT170817 are \it{atypical} events. Nonetheless, the numerous observations of remnants and afterglows of transient electromagnetic events (such as supernovae and gamma ray bursts) indicate a common explanation of afterglows having timescales from days to years, such as that of MMT170817. Matter which is ejected during the previous phases of the phenomenon travels in the local external medium faster than the speed of sound. A shock thus forms at the interface of this ejecta with the interstellar medium. Interstellar material accumulates at this shock front, is accelerated to an energized population and radiates through the synchrotron process in the magnetic field of the shock. As the material accumulates, the shock decelerates. As in Figure \ref{shock}, the \it{separation layer} separates the ejecta and the energized swept-up interstellar material, which radiates from the \it{cooling zone}.
 
-Thus, the models which we will describe here and later confront to observations will concern the radiation of interstellar material which is shocked and radiates through the synchrotron process at the front of a shock formed by the piston effect of ejecta from the merger on the exterior medium, while this shock decelerates as it penetrates the ISM.
+This is the overall vision of afterglows of events such as MMT170817. The exact nature and origin of the ejected matter, and the characteristics of the medium in which it evolves depends on the specific astrophysical phenomena at hand. For example, in the case of core-collapse supernovae, the ejected matter is composed of the outter layers of the progenitor star. It is ejected with a spherical geometry and in form of a single-speed shell with a mildly relativistic velocity. In the case of long GRBs, matter is ejected in the form of a jet (with a cone geometry) at ultra-relativistic velocities ($\Gamma \gseq 50$).
 
-\fig{shock}{0.5}{Cut across the shock front, showing the ejected matter, and the interstellar material accumulating a the shock front.}
+Which geometry, which dynamical structure, and which velocities were assumed by the ejectas of MMT170817? We will confront afterglow data to different models in order to answer this question.
+
+
+\fig{shock}{0.5}{Cut across the shock front, showing the ejected matter, and the interstellar material accumulating at the forward shock front.}
 \section{The physics of afterglows: deceleration dynamics, radiation and astronomical observables}
 
-In this section, we will review the physics which will take part in the modelling of the afterglow of MMT170817. We will successively describe the deceleration of the remnant expanding in the interstellar medium, the radiation of matter at the shock front, and derive the electromagnetic signals which arise from this radiation. The more technical details of these physical processes may be found in \it{Appendix B}.
+In this section, we will review the physics which will take part in the modelling of the afterglow of MMT170817. We will successively describe the deceleration of the remnant expanding in the interstellar medium, the synchrotron radiation of matter at the shock front, and derive the electromagnetic signals which arise from this radiation.
 
 \subsection{Relativistic deceleration}
 \label{dynamic}
-We now describe the dynamics of the deceleration of the remnant in the ISM. We will consider for this work two different structures for the ejected matter: a \it{mono-kinetic ejecta}, or a \it{radially stratified ejection}.
+We now describe the dynamics of the deceleration of the remnant in the ISM. We will consider for this work two different structures for the matter ejection. First, a \it{mono-kinetic ejecta} in which the ejection occured at a single speed alltogether, as in a supernova. This model applies to cases where the ejection occurs on time scales much smaller than the time-variability time-scale of the ejecting engine. Secondly, a \it{radially stratified ejection}, where matter is ejected with a differential of speeds. This can correspond to a long and time-varying activity of the central engine.
 
-We will follow the Lorentz factor $\Gamma(r)$ of the ejected matter once it has reached the exterior radial coordinate $r$.
+Let $r$ designate the radial coordinate of the shock front, counted from the central engine out, and $\Gamma(r)$ the Lorentz factor of the shock once it has reached position $r$.
 
-\bf{Mono-kinetic ejection.} In this case, the matter is ejected with initial energy $E_0$ and a single Lorentz factor $\Gamma_0$. By plowing through the ISM, the shock sweeps up interstellar material and decelerates. By denoting $M_{\rm{ej}}$ the mass of the ejected matter, $m(r)$ the accumulated mass swept up by the shock at radius $r$ from the point of ejection, conservation of energy implies that the initial total energy $\Gamma_0 M_{\rm{ej}} c^2 + m(r) c^2$ is distributed in the ejected mass energy $\Gamma(r) M_{\rm{ej}} c^2$ and the internal energy of the swept up mass $\Gamma(r)^2 m(r) c^2$. Thus:
+\bf{Mono-kinetic ejection.} In this case, the matter is ejected with initial energy $E_0$ and a single Lorentz factor $\Gamma_0$. By plowing through the ISM, the shock sweeps up interstellar material and decelerates. The general self-similar solution of these dynamics is given in \cite{59}, but we will follow a simpler approach.
 
-$$\Gamma(r)^2 m(r) + \Gamma(r) M_{\rm{ej}} = \Gamma_0 M_{\rm{ej}} + m(r) $$
+By denoting $M_{\rm{ej}}$ the mass of the ejected matter, $m(r)$ the accumulated mass swept up by the shock, conservation of energy implies that the initial total energy $\Gamma_0 M_{\rm{ej}} c^2 + m(r) c^2$ is distributed in the energy of the ejected mass $\Gamma(r) M_{\rm{ej}} c^2$ and the internal energy of the energized swept up mass $\Gamma(r)^2 m(r) c^2$. Thus:
 
-Details on the $\Gamma^2 m c ^2$ form for the thermal energy of the swept-up mass can be found in \it{Appendix B}.
+$$\Gamma(r)^2 m(r) c^2 + \Gamma(r) M_{\rm{ej}} c^2 = \Gamma_0 M_{\rm{ej}} c^2 + m(r)c^2 $$
 
+Details on the $\Gamma^2 m c ^2$ form for the internal energy of the swept-up mass can be found in \it{Appendix B.1}.
 
-We will consider for our purposes a homogeneous medium with numeric density $n$.
+In our case, the neutron star binary has long left the environment where the last of the two neutron-star-forming supernovae occured, thus no massive-star wind outflow is present in the outskirts of the merger site, and we will consider for our purposes a homogeneous medium with numeric density $n$.
 
-Suppose that the mass $M_{\rm{ej}}$ was ejected into a solid angle $\Omega$ by the central source, for instance in the form of a cone. Then if we neglect any lateral expansion of the ejected matter, the swept us mass at radius will be\footnote{In all generality, we should consider the average mass per particle in the local exterior environment instead of $m_P$.}:
+Suppose that the mass $M_{\rm{ej}}$ was ejected into a solid angle $\Omega$ by the central source, for instance in the form of a cone. Then if we neglect any lateral expansion of the ejected matter, the swept-up mass at radius $r$ will be\footnote{In all generality, we should consider the average mass per particle in the local exterior environment $\mu m_P$ instead of $m_P$..}:
 
 $$m(r)~=~\Omega\int_0^r dr' r' ^ 2 n m_P$$
+
+A hydrodynamic lateral expansion would occur at the speed of sound, thus it is correct to neglect any such expansion as long as the ejecta assumes relativistic speeds.
 
 Thus by introducing the isotropic-equivalent ejected mass $M_{\rm{iso}} = 4\pi M_{\rm{ej}}/ \Omega$, the dimensionless mass parameter $\mu(r) \equiv \frac{m(r)}{M_{\rm{iso}}/\Gamma_0}$, writes:
 
@@ -51,17 +57,20 @@ And finally, the solution for $\Gamma(r)$ is easily found to be:
 
 $$\Gamma(r) = \Gamma_0 \frac{-1 + \sqrt{1 + 4\mu(r) + \frac{4\mu(r) ^ 2}{\Gamma_0^2}}}{2 \mu(r)}$$
 
-\bf{Phases of deceleration.}We observe three phases in the deceleration of the shock front:
+\bf{Phases of deceleration.} We observe three phases in the deceleration of the shock front:
 
 \begin{enumerate}
 	\item For $\mu(r) \ll 1/4$, i.e. $r \ll R_{\rm{dec}}$, in the \it{coasting phase}, no deceleration occurs:
 
 	\cen{$\Gamma(r) \simeq \Gamma_0$}
 
+    Thus, no deceleration occurs before a mass $M_{\rm{iso}}/\Gamma_0$ is swept-up.
+
 	\item For $1/4 \ll \mu(r) \ll \Gamma_0 ^ 2$, i.e. $R_{\rm{dec}} \ll r \ll \Gamma_0^{2/3} R_{\rm{dec}} \equiv R_{\rm{N}}$ (\it{newtonian radius}), the front is in a \it{relativistic deceleration phase}, during which the swept-up mass progressively reaches $\Gamma_0 M$:
 
 	\cen{$\Gamma(r) \simeq \frac{\Gamma_0}{\sqrt{\mu(r)}} = \Gamma_0 \left(\frac{r}{R_{\rm{dec}}} \right) ^ {-3/2}$}
 
+    This regime is indentical to that of \cite{59}.
 
 	\item For $\Gamma_0^2 \ll \mu(r)$, i.e. $ R_{\rm{N}} \ll r$:
 
@@ -69,45 +78,55 @@ $$\Gamma(r) = \Gamma_0 \frac{-1 + \sqrt{1 + 4\mu(r) + \frac{4\mu(r) ^ 2}{\Gamma_
 
 	and
 
-	\cen{$\v(r) \simeq c \sqrt{1 - \frac{1}{\Gamma_0}} \left( \frac{r}{R_{\rm{N}}} \right) ^ {-3/2}$}
+	\cen{$v(r) \simeq c \sqrt{1 - \frac{1}{\Gamma_0}} \left( \frac{r}{R_{\rm{N}}} \right) ^ {-3/2}$}
 
-	This is the \it{Newtonian phase}, and we see that deceleration to non-relativistic velocities requires the sweeping up of a mass on the order of $\Gamma_0 M$.
+	This is the \it{Newtonian phase}, and we see that deceleration to non-relativistic velocities requires the sweeping up of a mass on the order of $\Gamma_0 M$. This regime of the dynamics is the same as the Sedov solution \cite{60}, which is valid for non-relativistic cases.
 \end{enumerate}
 
-\bf{Radially stratified structure.} In this case, we suppose that the matter was ejected with an inhomogeneous distribution of velocities: some components were ejected with larger energies than others. We parametrize this distribution giving a cumulative ditribution $E( > \Gamma)$ of energies. It is such that at ejection, the total energy of the matter having a Lorentz factor larger than a given $\hat{\Gamma}$ is $E( > \hat{\Gamma})$.
+\bf{Radially stratified structure.} In this case, we suppose that the matter was ejected with an inhomogeneous distribution of velocities: some components were ejected with larger energies than others, as in a continous and decreasing activity of the central engine. We parametrize this distribution giving a cumulative ditribution $E( > \Gamma)$ of energies. It is such that at ejection, the total energy of the matter having a Lorentz factor larger than a given $\Gamma$ is $E( > \Gamma)$.
 
 After the ejection, the higher-velocity component of the ejecta will form the shock front, while the rest of the ejecta lags behind. The front shock decelerating in the ISM, the slower components will catch up to the front shock. This way, the catching-up matter will slow the deceleration down, until the slowest component has caught up. Then, the dynamics are the same as a mono-kinetic ejection starting from the slowest initial velocity.
 
-How to write energy conservation in this case? If the front shock has reached a Lorentz factor $\Gamma$ (at $r$), it means that all the energy which was initially available to the ejected matter with Lorentz factors above $\Gamma$ has already caught-up and been injected into the shock, since we neglect the time it takes for matter to catch-up to the shock. But the energy injected by the shock is that held in internal energy form by the swept-up material at the shock, as in the mono-kinetic ejection case. Thus, we have:
+How to write energy conservation in this case? We will simplify the problem and neglect the time it takes for matter to catch-up to the shock. In this case, if the front shock has reached a Lorentz factor $\Gamma$ (at $r$), it means that all the energy which was initially available to the ejected matter with Lorentz factors above $\Gamma$ has already caught-up and been injected into the shock. Moreover the energy injected to the shock is held in internal energy by the swept-up material at the shock, as in the mono-kinetic ejection case. Thus, we have:
 
 $$ \Gamma(r)^2 m(r) c ^ 2 = E( > \Gamma(r)) + m(r) c ^ 2$$
 
-Notice that this is an implicit equation on $\Gamma(r)$, and that we do not consider here an initial bulk mass which would have a initial energy of $\Gamma_0 M c^2$. Considering an additional bulk mass in this process would simply amount to a discontinueous function $ E( > \Gamma)$.
+Notice that this is an implicit equation on $\Gamma(r)$. In addition, we do not consider here an initial bulk mass which would have an initial energy of $\Gamma_0 M c^2$. Considering an additional bulk mass in this process would simply amount to a discontinuous function $ E( > \Gamma)$.
 
 In the case of a homogeneous medium, this reduces to:
 
 $$\frac{4\pi}{3}r^3 n m_P c^2(\Gamma(r)^2 - 1) = E( > \Gamma) $$
 
 
-Alternatively, we parametrize the distribution in terms of the \it{relativistic 4-velocity} $u = \Gamma \beta$.
+Alternatively, we parametrize the distribution in terms of the \it{relativistic 4-velocity} $u = \Gamma \beta$. This allows us to consider non-relativistic velocities ($u \sim 0$) as well as ultrarelativistic cases ($u \gg 1$).
 
-It follows that if the total initial energy is $E_0$ and the largest (resp. smallest) velocity in the ejecta is $u_M$ (resp. $u_m$), then the energy distribution function can be written as:
+If the total initial energy is $E_0$ and the largest (resp. smallest) velocity in the ejecta is $u_M$ (resp. $u_m$), then the energy distribution function can be written as:
 
-$$ E( > u) = E_0 g(u) $$,
+$$ E( > u) = E_0 g(u) $$
 
 where $g$ is a function equal to 1 for $u < u_m$, to 0 for $u_M < u$, and decreases between $u_m$ and $u_M$.
 
-The simplest functional form for $g$ which meets these requirements is a power-law with some positive index $\alpha$  containing all the unknown physics of the ejection event. Explicitly, the final deceleration dynamics equation is (note that $\Gamma^2 - 1 = (\Gamma\beta)^2$):
+The simplest functional form for $g$ which meets these requirements is a power-law with some positive index $\alpha$ containing all the unknown physics of the ejection event, such as:
+
+\begin{equation}
+    g(u) = \left \{ \begin{array}{cl}
+    1 & \text{if} u < u_m \\
+    \frac{u ^ {-\alpha} - u_M^{-\alpha}}{u_m ^ {-\alpha} - u_M ^ {-\alpha}} & \text{if} u_m < u < u_M \\
+    0 & \text{if} u_M < u
+\end{array}
+    \end{equation}
+
+In this case, the final deceleration dynamics equation is (note that $\Gamma^2 - 1 = (\Gamma\beta)^2$):
 
 $$\frac{4\pi r^3 n m_P c^2u(r)^2}{3 E_0} = \frac{u(r) ^ {-\alpha} - u_M^{-\alpha}}{u_m ^ {-\alpha} - u_M ^ {-\alpha}} $$
 
-In this case, solving for $\Gamma(r)$ (or equivalently $u(r)$) is not analytical, and we will find $\Gamma(r)$ with help of numerical integration. For our purposes, we fix the value of $\alpha$ to the fiducial value of 5 (\cite{13}).
+In this case, solving for $\Gamma(r)$ (or equivalently $u(r)$) is not analytical, and we will find $\Gamma(r)$ with help of numerical integration. For our purposes, we fix the value of $\alpha$ to the fiducial value of 5 (\cite{13}). Having explored other values for $\alpha$ between $2$ and $7$, we concluded that the qualitative form of the results were unchanged.
 
 \subsection{Synchrotron radiation and self-absorption}
 
-We now turn to the radiation emerging from the shocked matter, which constitutes the afterglow emission. From now on, we will denote with primes $\p$ the value of quantities measured in the frame of the expanding matter, and without primes those measured in the laboratory (exterior) frame.
+We now turn to the radiation emerging from the shocked matter, which constitutes the afterglow emission. From now on, we will denote with primes $\p$ the value of quantities measured in a frame comoving with the shocked emitted matter, and without primes those measured in the laboratory (exterior) frame.
 
-\bf{Shock conditions on numeric density and specific internal energy. }What are the conditions at the shock front, where interstellar material is excited and radiates? They are given by the Rankine Hugoniot (e.g \cite{39}) relations. In the case of ultrarelativistic matter (with an adiabatic index of $\gamma = 4/3$), the shock-frame numeric density and internal-to-mass energy ratio are:
+\bf{Shock conditions on numeric density and specific internal energy. }What are the conditions at the shock front, where interstellar material is excited and radiates? They are given by the Rankine Hugoniot (e.g \cite{39}) relations. In strong shocks, the shocked matter's internal energy is much larger than its rest mass energy. We thus consider the conditions for ultrarelativistic matter (with an adiabatic index of $\gamma = 4/3$). Then, the shock-frame numeric density and ratio of internal energy to mass energy are:
 
 $$n\p = (4 \Gamma + 3) n$$
 
@@ -117,13 +136,22 @@ $$\epsilon\p = (\Gamma - 1) $$
 
 \bf{Electron population and magnetic field. }The physical process we consider for radiation is synchrotron radiation. The energy deposited by the shock contributes to the two factors of synchrotron radiation: a magnetic field and a population of relativistic electrons.
 
-The microphysics of the emergence of magnetic fields in astrophysical shocks are unclear (nonetheless, see \it{Appendix E} for a short discussion). From our standpoint, we are concerned only with the strength of the field, and will consider that a free microphysical parameter $\epsilon_B$ relates the field magnitude to the shock-frame energy density, such that:
+The microphysics of the emergence of magnetic fields in astrophysical shocks are an area of intense research (nonetheless, see \it{Appendix B.4} for a short discussion). From our standpoint, we are concerned only with the strength of the field, and will consider that a free microphysical \it{redistribution} parameter $\epsilon_B$ relates the field magnitude to the shock-frame energy density. More explicitly, we define $\epsilon_B$ such that in the shock frame, a fraction $\epsilon_B$ of the internal energy density is in the form of magnetic energy from the entangled magnetic fiels. Thus:
 
 $$\frac{B\p^2}{8\pi} = \epsilon_B n\p \epsilon\p m_P c^2$$
 
-Likewise, we will consider that the electron population has a simple energy spectrum: it is a power law of index $p$ in the Lorentz factor space as of some minimal Lorentz factor $\Gamma_m$. Note that the energy contained in the electron population is \it{not directional}. On the contrary to the exterior kinetic energy of the shock (emcompassed in $\Gamma(r)$), this electron energy distribution arises from an isotropic momentum distribution in the local frame, and thus may be regarded as internal energy.
+Likewise, we will consider that the electron population has a simple energy spectrum $\mathcal{N}$: it is a power law of index $p$ in the Lorentz factor space as of some minimal Lorentz factor $\Gamma_m$, as in the case of populations energized by high-energy astrophysical processes such as Fermi acceleration, that is:
 
-We introduce yet another microphysical parameter $\epsilon_e$, which relates the proportion of the local internal energy distribution which is carried by the electrons. By requiring that the electrons carry a fraction $\epsilon_e$ of the total internal energy, we write:
+\begin{equation}
+    \mathcal{N}(\gamma) = \eft \{\begin{array}{cl}
+    0 & \text{if} \gamma < \gamma_m\\
+    \gamma^{-p} & \text{if} \gamma_m < \gamma
+\end{array}
+\end{equation}
+
+Note that the energy contained in the electron population is \it{not directional}. On the contrary to the exterior kinetic energy of the shock (encompassed in $\Gamma(r)$), this electron energy distribution arises from an isotropic momentum distribution in the local frame, and thus may be regarded as internal energy.
+
+We introduce yet another microphysical redistribution parameter $\epsilon_e$, which relates the proportion of the local internal energy which is carried by the energized electrons. By requiring that the electrons carry a fraction $\epsilon_e$ of the total internal energy, we write:
 
 $$\int_{\gamma_m}^\infty d\gamma \mathcal{N}(\gamma)\gamma m_e c^2 = \epsilon_e \epsilon\p m_P c^2$$
 
@@ -131,7 +159,7 @@ Also, normalization of the population density writes:
 
 $$\int_{\gamma_m}^\infty d\gamma \mathcal{N}(\gamma) = 1 $$
 
-With an energy density $\mathcal{N}(\gamma) \propto \gamma^{-p}$, one obtains:
+With these two, one obtains:
 
 $$\gamma_m= \epsilon_e \frac{m_P}{m_e}\frac{p - 2}{p - 1} (\Gamma - 1)$$
 
@@ -143,6 +171,9 @@ and finally we have:
                                     \frac{p-1}{\gamma_m}\left(\frac{\gamma}{\gamma_m}\right)^{-p} & \text{for }\gamma_m < \gamma
                                     \end{array}\right.
 \end{equation}
+
+As of now, we will fix the value of $\epsilon_e$ to the fiducial value of 0.1 (see e.g. \cite{41}). This value is supported by the fitting of synchrotron models such as ours to GRB as well as supernovae afterglows.
+
 \bf{The synchrotron spectrum of a power-law population of electrons. }It can be shown (see e.g. \cite{55}, sec. 6) that the source-frame synchrotron spectral power emitted by a single electron of Lorentz factor $\gamma_e$ in a magnetic field $B$ varies as $\nu\p^{1/3}$ until a maximum frequency:
 
 \begin{equation}
@@ -157,7 +188,7 @@ and then decreases exponentially. The maximum spectral power is:
 
 where $\sigma_T$ is Thomson cross-section.
 
-It follows that the total power emitted by the electron is approximately
+It follows that the total power emitted by the electron is approximately:
 
 \begin{align}
     P\p &\sim \int_0^{\nu_s\p(\gamma_e)} d\nu\p P_\rm{max}\p \left(\frac{\nu\p}{\nu_s\p(\gamma_e)}\right)^{1/3} \\
@@ -179,7 +210,7 @@ We denote by $\gamma_c$ the Lorentz factor of an electron which cools by synchtr
 
 $$ \gamma_c = \frac{6 \pi m_e c}{\sigma_T B^2 t_d\p}$$
 
-Furthermore, we introduce the synchtrotron characteristic frequencies of the electron population$\nu_m\p$ and $\nu_c\p$ as the frequency of peak emission from electrons with Lorentz factors $\gamma_m$ and $\gamma_c$:
+Furthermore, we introduce the synchtrotron characteristic frequencies of the electron population $\nu_m\p$ and $\nu_c\p$ as the frequency of peak emission from electrons with Lorentz factors $\gamma_m$ and $\gamma_c$:
 
 \begin{align}\label{freqs}
     \nu_c\p &= \nu_s\p(\gamma_c) \\
@@ -190,7 +221,7 @@ For an electron of Lorentz factor $\gamma_e > \gamma_c$, the total energy goes a
 
 The overall power spectrum for a single electron is thus composed of three segments: a power law as $\nu\p^{1/3}$ for $\nu\p < \nu_c\p$, a power law as $\nu\p^{-1/2}$ for $\nu\p_c < \nu\p < \nu_s\p(\gamma_e)$, and an exponential cut-off for larger frequencies. The maximum spectral power is $P_\rm{max}\p$, attained at $\nu_c\p$.
 
-Coming back to the entire population of the electrons in the shock, we determine the total emission spectrum by integrating on the Lorentz factor distribution $\mathcal{N}$ as in eq. \ref{N}. For this, two cases can arise:
+Coming back to the entire population of the electrons in the shock, we determine the total emission spectrum by integrating on the Lorentz factor distribution $\mathcal{N}$ as in Eq. \ref{N}. For this, two cases can arise:
 
 \begin{enumerate}
     \item $\gamma_m < \gamma_c$, which we call \it{slow cooling}, because the bulk of the population has $\gamma_e < \gamma_c$ and thus cools on time-scales larger than the dynamical $t_d\p$, thus slower than the adiabatic cooling process. In this case, the average power spectrum per electron is:
@@ -203,7 +234,7 @@ Coming back to the entire population of the electrons in the shock, we determine
                          \end{array}\right.
     \end{equation}
 
-    \item $\gamma_c < \gamma_m$, the state of \it{fast cooling}, because then all of the electrons cool in a time-scale smaller that the dynamical time-scale. Then, the average power spectrum per electron is:
+    \item $\gamma_c < \gamma_m$, the state of \it{fast cooling}, because then all of the electrons cool in a time-scale smaller than the dynamical time-scale. Then, the average power spectrum per electron is:
 
     \begin{equation}
         P\p = P_{\rm{max}}\p \times \left\{ \begin{array}{cl}
@@ -219,18 +250,15 @@ Coming back to the entire population of the electrons in the shock, we determine
 
 Given a rest-frame emission spectrum for the matter in the exanding shock and a velocity of the shock, what flux will a distant observer measure? Suppose that at exterior time $t = 0$, the matter is ejected, and that the shell has reached a radius of $R$ and Lorentz factor $\Gamma$ by time $t$. Suppose a chunk of matter in the shock front emits some light with frequency $\nu\p$ in its rest frame. We must discuss the arrival time and frequency of the light to the observer.
 
-\fig{schema}{1.0}{The geometry of the remnant. A spherical shell-like shock front (or a part of a sphere) is expanding at speed $\beta(t)$, while every particle radiates in its own reference frame according to an emissivity $j\p$.}
+\fig{schema}{0.8}{The geometry of the remnant. A spherical shell-like shock front (or a part of a sphere) is expanding at speed $\beta(t)$, while every particle radiates in its own reference frame according to an emissivity $j\p$.}
 
-\bf{Simple discussion: matter moving towards the observer. }Suppose that the emitter is moving towards the observer, like the red dot in figure \ref{schema}. Then the observed frequency at the time of arrival of the emitted light will simply be $\nu = \frac{\nu\p}{\Gamma(1 - \beta)}$ by relativistic Doppler shifting\footnote{There are many conventions for the expression of the Doppler factor and the sign of $\beta$. Noticing that $\Gamma(1 + \beta) = \frac{1}{\Gamma(1 - \beta)}$, we might have as well written $\nu = \Gamma (1 + \beta) \nu\p$.}. $\Gamma$ and $\beta$ here must be considered at the time of emission $t$ of the light of course.
+\bf{Simple discussion: matter moving towards the observer. }Suppose that the emitter is moving towards the observer, like the red dot in Figure \ref{schema}. Then the observed frequency at the time of arrival of the emitted light will simply be $\nu = \frac{\nu\p}{\Gamma(1 - \beta)}$ by relativistic Doppler shifting\footnote{There are many conventions for the expression of the Doppler factor and the sign of $\beta$. Noticing that $\Gamma(1 + \beta) = \frac{1}{\Gamma(1 - \beta)}$, we might have as well written $\nu = \Gamma (1 + \beta) \nu\p$.}. $\Gamma$ and $\beta$ here must be considered at the time of emission $t$ of the light of course.
 
-Let $\tobs$ denote the time of arrival to the distant observer of the light emitted at $t$. After emission, the light travels the distance $D - R$ before arrival. Thus, $\tobs = t + \frac{D - R}{c}$. $D/c$ here is nothing else than the 120~Myr the first emitted light took to reach us. If we count time from the source-frame beginning of the event, we can drop this delay, and thus write:
+Let $\tobs$ denote the time of arrival to the distant observer of the light emitted at $t$. After emission, the light travels the distance $D - R$ before arrival. Thus, $\tobs = t + \frac{D - R}{c}$, where $D/c$ here is nothing else than the 120~Myr the first emitted light took to reach us. If we count time from the source-frame beginning of the event, we can drop this delay, and thus write:
 
 \begin{equation}\label{tobs}
     \tobs = t - R/c
 \end{equation}
-%With $\beta(t) = dR/dt$, we finally have:
-
-%$$\tobs = \int_0^t(1 - \beta(\tau))d\tau$$
 
 Let us introduce the shock-frame time coordinate $t\p$, such that $dt\p = dt/\Gamma(t)$ and $t\p = 0$ at ejection.
 
@@ -242,17 +270,15 @@ $$dF(\nu, \tobs) = \frac{1}{4\pi D^2} \frac{j\p(\nu \Gamma(t)(1 - \beta(t)), t\p
 
 where $t$ and $t\p$ are simply the source-frame and shock-frame time coordinates of the event of the emission ofthe light which was received at observer time $\tobs$. Of course, since the dynamics of the shell are followed according to $t$, we will express $j\p$ as a function of $t$ later.
 
-\bf{General discussion: flux from an extended remnant.} Let us now consider a chunk of matter moving with an angle $\theta$ with respect to the line of sight (like the red dot on figure \ref{schema}). Then the Doppler shifting reads more generally $\nu = \frac{\nu\p}{\Gamma (1 - \beta \cos \theta)}$, and the distance to travel for the light from emission to reception is $D - R \cos \theta$, thus the time of arrival is:
+\bf{General discussion: flux from an extended remnant.} Let us now consider a chunk of matter moving with an angle $\theta$ with respect to the line of sight (like the red dot on Figure \ref{schema}). Then the Doppler shifting reads more generally $\nu = \frac{\nu\p}{\Gamma (1 - \beta \cos \theta)}$, and the distance to travel for the light from emission to reception is $D - R \cos \theta$, thus the time of arrival is:
 
 \begin{equation}
 \tobs = t - R \cos \theta / c
-
 \end{equation}
-
 
 Notice that in this case, for a same arrival time, the time of emission is dependent on $\theta$ in such a way that at one given instant, the observer is receiving light emitted by the shell at earlier times (and thus different $\beta$ and $j\p$) for larger angles from the line of sight.
 
-Thus, by neglecting absorption and diffusion of radiation from the remnant by other parts of the remnant on the line of sight, we write the total flux measured at time $T$ as:
+Thus, by neglecting absorption and diffusion of radiation from the remnant, we write the total flux measured at time $T$ as:
 
 
 \begin{equation}\label{in}
@@ -260,41 +286,42 @@ Thus, by neglecting absorption and diffusion of radiation from the remnant by ot
 \end{equation}
 
 
-where $\mathcal{D}(\theta, t) = \frac{1}{\Gamma(t)(1 - \beta(t) \cos \theta)}$ is the time and angle-dependent Doppler factor of the matter of which the radiation will be received at $T$, and $\Omega_E$ is the total solid angle occupied by the remnant. This equation takes into account the delay on light arrival time (through the $\delta$ function), the Doppler frequency shifting (through the evaluation of $j\p$ at $\nu/\mathcal{D}$) and the relativistic beaming of radiation (through the integration of $j\p/\mathcal{D}$).
+where $\mathcal{D}(\theta, t) = \frac{1}{\Gamma(t)(1 - \beta(t) \cos \theta)}$ is the time- and angle-dependent Doppler factor of the matter of which the radiation will be received at $T$, and $\Omega_E$ is the total solid angle occupied by the remnant. This equation takes into account the delay on light arrival time (through the $\delta$ function), the Doppler frequency shifting (through the evaluation of $j\p$ at $\nu/\mathcal{D}$) and the relativistic beaming of radiation (through the integration of $j\p/\mathcal{D}^2$).
 
 For a spherical remnant, $\Omega_E$ is the entire sphere. For a jet, $\Omega_E$ is a portion of the sphere of subtending half-angle usually denoted $\theta_j$ (as well as the diametrally-opposite portion of the sphere if we include the counter-jet).
 
-\fig{jets}{1.0}{Geometrical configurations for fluxes from \it{(a)} a spherical remnant, \it{(b)} a jet seen on axis, \it{(c)} a jet seen off axis.}
+\fig{jets}{0.8}{Geometrical configurations for fluxes from \it{(a)} a spherical remnant, \it{(b)} a jet seen on axis, \it{(c)} a jet seen off axis.}
 
 
-\bf{Flux from a jet seen on axis.} Thus, for given dynamics $\Gamma(t)$ and emissivity $j\p$, the flux received from different geometries will differ according to the integration domain for $\theta$ and $\phi$. Suppose that the flux from a sphere is given as $F^\rm{iso}(\nu, T)$ (as in figure \ref{jets}, \it{a}), can we easily deduce the flux from a jet seen through its axis (as in figure \ref{jets} \it{b})?
+\bf{Flux from a jet seen on axis.} Thus, for given dynamics $\Gamma(t)$ and emissivity $j\p$, the flux received from different geometries will differ according to the integration domain for $\theta$ and $\phi$. Suppose that the flux from a sphere is given as $F^\rm{iso}(\nu, T)$ (as in Figure \ref{jets}, \it{a}), can we easily deduce the flux from a jet seen through its axis (as in Figure \ref{jets} \it{b})?
 
-At early times, the radiation from matter on the side of the sphericl remnant will not be observed, because it will be beaming-suppressed if $\Gamma$ is too large. Thus, the radiation will be the same as that from a jet, where hte radiation from matter on the side is not observed simply because there is no matter on the side.
+At early times, the radiation from matter on the side of the spherical remnant will not be observed, because it will be beaming-suppressed if $\Gamma$ is too large. Thus, the radiation will be the same as that from a jet, where the radiation from matter on the side is not observed simply because there is no matter on the side.
 
 At later times, when the remnant has decelerated, the emission from side matter will start to be observed in the spherical case, but still not in the jet case. Thus, it is only at late times that an observer which is observing a jet will realize that the remnant is jetted, because the emission from the side will be \it{missing}.
 
-How may we quantify this change in observed radiation? For a jet, the matter emitting the radition is contained in a solid angle $\Omega_j = 4\pi(1 - \cos \theta_j)$. In both the spherical and jet cases, the radiation from the matter is beamed into a solid angle of half-angle $1/\Gamma$: $\Omega_b = 4\pi(1 - \cos(1/\Gamma))$. In consequence, the flux from the two cases will be equal while the matter outside of $\Omega_j$ is too beamed to be observed, i.e. $\Omega_b \ll \Omega_j$. Conversely, after some deceleration, the jet observer will observe less radiation because its beaming solid angle exceeds the jet solid angle, i.e. when $\Omega_j \ll \Omega_b$. When this moment -- the \it{jet break} -- has occured, then the jet observer will observe only a portion $\Omega_j/\Omega_b$ of the radiation seen be a spherical remnant observer, because the radiation which is no longer beamed to the observer cannot be replaced by radiation of matter on the side.
+How may we quantify this change in observed radiation? For a jet, the matter emitting the radition is contained in a solid angle $\Omega_j = 4\pi(1 - \cos \theta_j)$. In both the spherical and jet cases, the radiation from the matter is beamed into a solid angle of half-angle $1/\Gamma$: $\Omega_b = 4\pi(1 - \cos(1/\Gamma))$. In consequence, the flux from the two cases will be equal while the matter outside of $\Omega_j$ is too beamed to be observed, i.e. $\Omega_b \ll \Omega_j$. Conversely, after some deceleration, the jet observer will observe less radiation because its beaming solid angle exceeds the jet solid angle, i.e. when $\Omega_j \ll \Omega_b$. When this moment --~the \it{jet break}~-- has occured, then the jet observer will observe only a portion $\Omega_j/\Omega_b$ of the radiation seen by a spherical remnant observer, because the radiation which is no longer beamed to the observer cannot be replaced by radiation of matter on the side.
 
 Developping for $\Gamma \gg 1$ and $\theta_j \ll 1$ leads to $\Omega_b \simeq \pi/\Gamma^2$ and $\Omega_j \simeq \pi\theta_j^2$. Thus the flux $F^{\rm{on}}(\nu, T, \theta_j)$ seen by an observer in the axis of a jet of half-aperture $\theta_j$ can be expressed in terms of the flux observed from a spherical remnant with the same dynamics and emission as:
 
-\begin{equation}\label{jet-on}
+\begin{equation}
+    \label{jet-on}
 F^{\rm{on}}(\nu, T, \theta_j) = \left\{
 	\begin{array}{cccr}
          1 & \times &F^{\rm{iso}}(\nu, T) & \text{if } \Gamma \theta_j \gg 1\\
        	\left(\Gamma \theta_j\right) ^ 2 & \times & F^{\rm{iso}}(\nu, T) & \text{if } \Gamma \theta_j \ll 1\\
     \end{array}
-
 \end{equation}
 
 
 
-\bf{Flux from a jet seen off axis.} We now turn to the radiation observed from a jet seen with an angle $\thetaobs$ from it axis (as in figure \ref{jets} \it{c}). We suppose that $\thetaobs \gg \theta_j$. Then, we can neglect the variation of the global viewing angle (which is in $[\thetaobs - \theta_j, \thetaobs + \theta_j]$) and consider that the the emission from the cone will be frequency-shifted, delayed and suppressed by beaming as a whole, as if seen from an angle of $\thetaobs$.
+\bf{Flux from a jet seen off axis.} We now turn to the radiation observed from a jet seen with an angle $\thetaobs$ from it axis (as in Figure \ref{jets} \it{c}). We suppose that $\thetaobs \gg \theta_j$. Then, we can neglect the variation of the global viewing angle (which is in $[\thetaobs - \theta_j, \thetaobs + \theta_j]$) and consider that the the emission from the cone will be frequency-shifted, delayed and suppressed by beaming as a whole, as if seen from an angle of $\thetaobs$.
 
-We thus consider the flux from a jet on axis $F^{\rm{on}}$ and apply a transformation to delay,frequency-shift, and beam the emission alltogether. The arrival time will be $t - R\cos\thetaobs/c$ and no longer $t - R/c$, and the frequency in a factor of $\Gamma(1 - \beta \cos \thetaobs)$ of the emitted frequency and no longer of $\Gamma(1 - \beta)$.
+We thus consider the flux from a jet on axis $F^{\rm{on}}$ and apply a transformation to delay, frequency-shift, and beam the emission alltogether. The arrival time will be $t - R\cos\thetaobs/c$ and no longer $t - R/c$, and the frequency in a factor of $\Gamma(1 - \beta \cos \thetaobs)$ of the emitted frequency and no longer of $\Gamma(1 - \beta)$.
 
 Similarly, the spectral luminosity varies as $\mathcal{D}^3$, thus we write:
 
-\begin{equation}\label{jet-off}
+\begin{equation}
+    \label{jet-off}
     F^{\rm{off}}\left(\nu, T, \theta_j, \thetaobs\right) = a ^ 3 F^{\rm{on}}\left(\frac{\nu}{a}, bT, \theta_j\right)
 \end{equation}
 
@@ -307,11 +334,9 @@ and
 $$b = \frac{1 - \frac{R}{ct}}{1 - \frac{R\cos\thetaobs}{ct}}$$
 
 
-\bf{Simplification of the spherical remnant flux in our case of synchtrotron emission.} In our case, we will not calculate the flux by integrating $j\p$ as in eq. \ref{in}. We will instead greatly simplify the calculation, and consider the remnant as radiating altogether according to the spectrum of eq. \ref{spectrum}, and apply a uniform factor $\Gamma$ to account for Doppler frequency shifting. What's more, we will not integrate on equal-arrival times, but consider that the remnant emits entirely synchronousely. Thus, we will calculate the arrival time as $\tobs = t - R/c$.
+\bf{Simplification of the spherical remnant flux in our case of synchtrotron emission.} In our case, we will not calculate the flux by integrating $j\p$ as in Eq. \ref{in}. We will instead greatly simplify the calculation, and consider the remnant as radiating altogether according to the spectrum of Eq. \ref{spectrum}, and apply a uniform factor $\Gamma$ to account for Doppler frequency shifting. What's more, we will not integrate on equal-arrival times, but consider that the remnant emits entirely synchronousely. Thus, we will calculate the arrival time as $\tobs = t - R/c$.
 
-In the case of a jet, we will apply the corrections of eq. \ref{jet-on} and \ref{jet-off} for on-axis and off-axis observations.
-
-In practice, this amounts to the following flux:
+In practice, this amounts to the following flux for a spherical remnant:
 
 \begin{align}\label{flux}
 F^{\rm{iso}}(\nu, T) &= \frac{N_e}{4\pi D^2} P_{\rm{max}} \times \left\{ \begin{array}{clllll}
@@ -326,15 +351,17 @@ F^{\rm{iso}}(\nu, T) &= \frac{N_e}{4\pi D^2} P_{\rm{max}} \times \left\{ \begin{
                                     \end{array}\right.
 \end{align}
 
-where $N_e = 4 \pi R^3 n / 3$ is the number of electrons in the shock, $P_\rm{max}$ is the Doppler shifted (simply by $\Gamma$ as our simplification states) synchtrotron spectrum peak flux, as in eq. \ref{pmax}, and the characteristic frequencies are given in eq. \ref{freqs} and also Doppler shifted. Time is numerically integrated from the conditions $R = 0$ at $T = 0$, and $dT = dt - \frac{dR}{c}$ as in eq. \ref{tobs}, equivalent to $dT = \left( \frac{1}{\beta} - 1\right)\frac{dR}{c}$.
+where $N_e = 4 \pi R^3 n / 3$ is the number of electrons in the shock, $P_\rm{max}$ is the Doppler shifted (simply by $\Gamma$ as our simplification states) synchtrotron spectrum peak flux, as in Eq. \ref{pmax}, and the characteristic frequencies are given in Eq. \ref{freqs} and also Doppler shifted. Time is numerically integrated from the conditions $R = 0$ at $T = 0$, and $dT = dt - \frac{dR}{c}$ as in Eq. \ref{tobs}, equivalent to $dT = \left( \frac{1}{\beta} - 1\right)\frac{dR}{c}$.
+
+In the case of a jet, we will apply to the spherical case flux the corrections of Eq. \ref{jet-on} and \ref{jet-off} for on-axis and off-axis observations.
 
 \bf{Final parametrization. }In conclusion, the overall parameters necessary to predict afterglow light curves are:
 
 \begin{itemize}
-	\item For the external medium: $n$ and $\epsilon_B$,
-	\item For a quasi-spherical remnant: $E_0$ and $\Gamma_0$ in the case of a mono-kinetic ejection, or $E_0$, $u_m$ and $u_M$ in the case of a structured ejecta,
-	\item For a jetted ejecta: additional geometrical parameters $\theta_j$ and $\theta_{\rm{obs}}$ with respect to a quasi-spherical remnant.
-
+	\item For the external medium: $n$, $\epsilon_B$ and $\epsilon_e$
+    \item For the electron population: $p$
+	\item For a quasi-spherical remnant: $E_0$ and $\Gamma_0$ in the case of a mono-kinetic ejection, or $E_0$, $u_m$, $u_M$ and $\alpha$ in the case of a radially-structured ejection,
+	\item For a jet: additional geometrical parameters $\theta_j$ and $\theta_{\rm{obs}}$ with respect to a quasi-spherical remnant.
 \end{itemize}
 
 
@@ -343,27 +370,26 @@ To conclude this section, we will illustrate the models with some predicted ligh
 
 \fig{examples}{0.5}{Some light curves as calculated by our model.}
 
-\bf{Why does a light curve peak? }As we have seen, two contributions shape the afterglow light curve: the dynamics of the remnant and the radiation of the shocked matter. As we will soon prove, the electromagnetic bands on which the study of the afterglow is based -- X-ray, optical, radio -- are all on the same portion of the synchrotron spectrum, and they are so for essentially all times. Thus, shifts from spectral regimes to others cannot explain the peaking of the light curves. Rather, dynamical regime shifts can.
+\bf{Why does a light curve peak? }As we have seen, two contributions shape the afterglow light curve: the dynamics of the remnant and the radiation of the shocked matter. As we will soon prove, the electromagnetic bands on which the study of the afterglow is based --~X-ray, optical, radio~-- are all on the same portion of the synchrotron spectrum, and they are so for essentially all times. Thus, shifts from spectral regimes to others cannot explain the peaking of the light curves. Rather, dynamical regime shifts can.
 
 In the case of radially-structured ejectas, we will in section \ref{QSR} discuss the fact that light curves peak as the dynamics shift from the catching-up regime to a mono-kinetic regime, and thus that the time of maximum flux is fixed by the value of the $u_m$ parameter.
 
-In the case of mono-kinetic ejectas, the light curve peak consistently coincides with the chage of dynamical regimes fromthe coasting phase to the relativistic deceleration phase. This was found by 
+In the case of mono-kinetic ejectas, the light curve peak consistently coincides with the change of dynamical regimes from the coasting phase to the relativistic deceleration phase. During the coasting phase, the shock's velocity is constant and the mass of swept-up material thus increases as $m \propto r^3 \propto \tobs^3$, producing a characteristic increasing light curve with a temporal index of $3$. Then, as $\Gamma \propto \tobs^{-3/8}$ in the deceleration phase\footnote{See \it{Appendix B.3} for the derivation of the scalings used in this discussion}, the rate of mass sweeping declines as $dm/d\tobs \propto dr^3/d\tobs \propto  \tobs^{-3/4}$, resulting in a decreasing light curve.
 
-\bf{On the validity of the simplifications used in our study}
-In order to evaluate the errors commited on the light curves produced by our simplified calculations (for spherical models as well as jets), some light curves on typical ranges of parameters are compared with those produced by full-fledged simulations, which do perform equal arrival time intergration in general conic geometries. Figure \ref{angular} reports such comparisons.
+\bf{On the validity of the simplifications used in our study.} In order to evaluate the errors commited on the light curves produced by our simplified calculations (for spherical models as well as jets), some light curves on typical ranges of parameters are compared with those produced by full-fledged simulations, which do perform equal arrival time intergration in general conic geometries. Figure \ref{angular} reports such comparisons.
 
 \fig{angular}{0.5}{Light curves for off-axis jets as calculated with the complete integration and our simplified version. The agreement is surprisingly good, and justifies the usage of the simplified (and fast) calculation for our purposes.}
 
-We observe the agreement to be good on the paramter ranges of interest for our study case, and we conclude that our calculations are sufficient for our purposes. Note that full-fledged calculations, albeit available, would not suite our purposes as they are slow and not fit for parameter space exploration, as we will perform in the next section.
+We observe the agreement to be good on the parameter ranges of interest for our study case, and we conclude that our calculations are sufficient for our purposes. Note that full-fledged calculations, albeit available, would not suite our purposes as they are slow and not fit for parameter space exploration, as we will perform in the next section.
 
 \section{The afterglow of MMT170817: modelling and results}
 
-In this section, we will answer the question: What is the geometry and the dynamical structure of the matter emitting the observed afterglow?
+In this section, we will answer the questions \textit{What is the geometry and the dynamical structure of the matter emitting the observed afterglow?} and \textit{What are the characersitics of the circum-merger medium?}
 
-This will lead us to decline various hypothese regarding the deceleration regime of the remnant and its geometry in order to find a coherent description of the phenomena.
+This will lead us to decline various hypotheses regarding the deceleration regime of the remnant and its geometry in order to find a coherent description of the phenomena.
 
 \subsection{Choice and reduction of multi-wavelength data}
-As described earlier, the afteglow emission was detected in X-ray, radio and visible bands respectively 9, 16 and $\sim$~150~d post-merger (when the kilonova had sufficiently dimmed in the case of the visible band). The homotetic sctructure of the light curves from different bands hints on the fact that all of these bands are in the same spectral regime. Indeed, taking the frequencies reported in table \ref{freqs}, and comparing to the scalings of $\nu_m$ and $\nu_c$ with the model parameters (reported in appendix B.2), we observe that in our case, all of the frequencies of interest are within the same range of the synchrotron spectrum. Namely, in the conditions of the remnant, we have $\nu_m \ll \nu_{\rm{Radio, R, X}} \ll \nu_c$ at essentially all times.
+As described earlier, the afterglow emission was detected in X-ray, radio and visible bands respectively 9, 16 and $\sim$~150~d post-merger (when the kilonova had sufficiently dimmed in the case of the visible band). The homothetic structure of the light curves from different bands hints on the fact that all of these bands are in the same spectral regime. Indeed, taking the frequencies reported in Table \ref{freqs}, and comparing to the scalings of $\nu_m$ and $\nu_c$ with the model parameters (reported in \textit{Appendix B.2}), we observe that in our case, all of the frequencies of interest are within the same range of the synchrotron spectrum. Namely, in the conditions of the remnant, we have $\nu_m \ll \nu_{\rm{Radio, R, X}} \ll \nu_c$ at essentially all times.
 
 \begin{table}
 \begin{center}
@@ -372,17 +398,16 @@ As described earlier, the afteglow emission was detected in X-ray, radio and vis
 \hline
 Radio & 3.0 GHz & 10~cm\\
 R & $4.56\times 10^5$~GHz & 657~nm \\
-X-ray & $2.42\times 10^8$~GHz & 1.23~nm \\
-
+X-ray (1 keV) & $2.42\times 10^8$~GHz & 1.23~nm \\
 \end{tabular}
 \caption{Frequencies of the EM bands of interest for our study}
 \label{freq}
 \end{center}
 \end{table}
 
-In this domain of the spectrum, the flux scales as $F_\nu \propto \nu^{\frac{1 - p}{2}}$. Thus, using the entire multi-wavelength set of photometry points, one can determine the value of $p$ once and for all, and reduce the set of points to a single band (in our case the 3~GHz band) for the rest of the study. This is done in e.g. \cite{5}, and a value of $p = 2.22\pm0.1$ is found.
+In this domain of the spectrum, the flux scales as $F_\nu \propto \nu^{\frac{1 - p}{2}}$. Thus, using the entire multi-wavelength set of photometry points, one can determine the value of $p$ once and for all, and reduce the set of points to a single band (in our case the 3~GHz band) for the rest of the study. This relates to the quantity $k$ which was briefly discussed in Section \ref{ags}, which can now identify with $k = \frac{1 - p}{2}$. This is done in e.g. \cite{5}, and a value of $p = 2.22\pm0.1$ is found.
 
-For now on, we will take $p = 2.2$, and use the radio 3~GHz points reported in table \ref{radio}. Also, we will fix the value of $\epsilon_e$ to the fiducial value of 0.1 (see e.g. \cite{41})
+For now on, we will take $p = 2.2$, and use the radio 3~GHz points reported in Table \ref{radio}.
 
 \begin{table}
 \begin{center}
@@ -407,54 +432,72 @@ For now on, we will take $p = 2.2$, and use the radio 3~GHz points reported in t
 
 
 \end{tabular}
-\caption{3~GHz fluxes considered for our study.}
+\caption{3~GHz fluxes considered for our study. The last three points were measured in the course of this work.}
 \label{radio}
 \end{center}
 \end{table}
 
-\subsection{Can the afterglow come from a post-GRB relativistic jet?}
-The first appoach to solving the origin of the afterglow stems from the standard understanding of GRBs. According to this standard model (see e.g. \cite{27}, \cite{26} sec. 5, \cite{28}), sGRBs are produced by the dissipation of the kinetic energy of a relativistic jet into radiation by processes which are still to elucidate. As described above, the later formation of a shock front by the jet and the plowing of interstellar material decelerates the jet and leads to the decollimation of the radiation emanating from the shocked material. If the decollimation and the emitted flux are such that an exterior observer enters the emission cone, than an afterglow from the relativistic jet is observed. Can this description explain the afterglow of MMT170817?
+\subsection{Can the afterglow come from a relativistic jet?}
+The first appoach to solving the origin of the afterglow stems from the standard understanding of GRBs. According to this standard model (see e.g. \cite{27}, \cite{26} sec. 5, \cite{28}), short GRBs are produced by the dissipation of the kinetic energy of a relativistic jet into radiation by processes which are still to elucidate. As described above, the later formation of a shock front by the jet and the plowing of interstellar material decelerates the jet and leads to the decollimation of the radiation emanating from the shocked material. If the decollimation and the emitted flux are such that an exterior observer enters the emission cone, than an afterglow from the relativistic jet is observed. Can this description explain the afterglow of MMT170817?
 
 
-We calculate light curves produced in such a manner by a mono-kinetic jet of aperture $\theta_j$, initial kinetic energy $E_j$\footnote{Notice that in this vision, the kinetic energy of the jet is the remainder of the jet's kinetic energy after dissipation in gamma radiation.} and uniform Lorentz factor $\Gamma_0$, penetrating an exterior medium of number density $n$ and magnetic microphysical parameter $\epsilon_B$, and observed from a angle of $\theta_{\rm{obs}}$.
+We calculate light curves produced in such a manner by a mono-kinetic jet of aperture $\theta_j$, initial kinetic energy\footnote{Notice that in this vision, the kinetic energy of the jet is the remainder of the jet's kinetic energy after dissipation in gamma radiation.} $E_j$ and uniform Lorentz factor $\Gamma_0$, penetrating an exterior medium of number density $n$ and magnetic microphysical parameter $\epsilon_B$, and observed from a angle of $\theta_{\rm{obs}}$.
 
-\fig{jetbest}{0.5}{Best-fit light curve for the mono-kinetic jet afterglow model, and the monokinetic spherical shell model. None are an acceptable fit.}
+The best-fit set of parameters is found using the amoeba algorithm \cite{20}, which has the avantage of not requiring the eveluation of derivatives.
 
-Figure \ref{jetbest} illustrates the monokinetic jet best-fit light curve to the radio points, obtained with a reduced $\chi^2$ of 119/9~$\sim$~13.
+\fig{jetbest}{0.7}{3 GHz best-fit light curves for the mono-kinetic jet afterglow model (blue, see Section 5.2), and the monokinetic spherical shell model (orange, see Section 5.3). None are an acceptable fit. The difference between both best-fit models is apparent only in the decreasing phase, where the jet break implies a steeper decrease due to the additional $\left(\Gamma \theta_j\right)^2 \propto \tobs^{-3/4}$ factor in the flux.}
+
+Figure \ref{jetbest} illustrates the monokinetic jet best-fit light curve to the radio points, obtained with a reduced $\chi^2$ of 119/9~$\sim$~13. The reduced $\chi^2$ is calculated as:
+
+\begin{equation}
+    \chi^2 = \frac{1}{N_\text{obs} - N_\text{para}} \sum_i\left( \frac{F_i - F_i^\text{obs}}{\sigma_i} \right)^2
+\end{equation}
+
+where $N_\text{obs}$ is the number of radio data points (15 in our case), $N_\text{para}$ is the number of parameters of the fit model, $F_i$, $F_i^\text{obs}$ and $\sigma_i$ and the model-predicted and measured flux and the $1\sigma$ uncertainty of the flux. From now on, all uncertainties and confidence intervals a given at $1\sigma$ confidence level, unless stated otherwise.
+
+The best-fit jet afterglow has parameters $n = 3 \times 10^{-4}$ cm\sp{--3}, $E_0 = 2 \times 10^52$ erg, $\Gamma_0 = 4$, $\espilon_B = 3 \times 10^{-3}$, $\thetaobs = \theta_j = 6$ deg.
 
 We observe that the characteristic $F(\nu, T) \propto T^3$ increase of jet afterglows does not fit the rather slow $F(\nu, T) \propto T^{0.79\pm015}$ (cf. infra) of the radio light curve. Furthermore, the smoothness of the jet afterglow peak constrasts with the strongly localized peak of the radio observations.
 
 We may thus conclude that an acceptable fit to the radio data may not be found in the context of an afterglow produced by a jet-like outflow.
 
 
-\subsection{A quasi-spherical remnant}
+\subsection{A quasi-spherical remnant?}
 \label{QSR}
 The jetted geometry for the afterglow emitter being ruled out, we now turn to the possibility that the shock front has a quasi-spherical geometry. In this case, the outflow of matter is almost spherical, and the corresponding shock front is a shell.
 
-\bf{A mono-kinetic quasi-spherical remnant. }For the same initial energies and Lorent factors, light curves from spherical and jet geometries will differ only after the jet break occurs for the jet model. Moreover, the relative weakness of the GRB hints to a likely small Lorentz factor for at least some of the matter ejected during the phenomena. Thus, we may predict that in our case of likely low Lorentz factor, spherical and jet geometry light curves of the monokinetic model will behave differently as of early times, the jet break occuring shortly for jet geometry cases.
+\bf{A mono-kinetic quasi-spherical remnant. }Recall this model describes short-lived central engine activity, as in supernovae.
 
-Indeed, by adjusting only four parameters, $n$, $\epsilon_B$, $E_0$ and $\Gamma_0$, a better fit is found for a monokinetic spherical ejecta model, as illustrated in figure \ref{jetbest}. The corresponding reduced $\chi^2$ is 72/11~$\sim$~6.5. Nonetheless, this model also produces a steep increase, and we can conclude that the dynamics at hand in this model are not satisfactory.
+For the same initial energies and Lorent factors, light curves from spherical and jet geometries will differ only after the jet break occurs for the jet model. Moreover, the relative weakness of the GRB hints to a likely small Lorentz factor for at least some of the matter ejected during the phenomena. Thus, we may predict that in our case, spherical and jet geometry light curves of the monokinetic model will behave differently as of early times.
 
-\bf{A radially structured quasi-spherical remnant. }We now turn to the radially structured remnant model. Recall this is a spherical outflow, but with components of various initial velocities, resulting in a continuous catching-up of the shock fromed by the fastest matter by slower matter when the shock decelerates. After the whole outflow has caught up to the shock, the dynamics are identical to those of a monokinetic outflow, but starting from the slowest velocity of the outflow.
+Indeed, by adjusting only four parameters, $n$, $\epsilon_B$, $E_0$ and $\Gamma_0$, a better fit is found for a monokinetic spherical ejecta model, as illustrated in Figure \ref{jetbest}. The corresponding reduced $\chi^2$ is 72/11~$\sim$~6.5. Nonetheless, this model also produces a steep increase, and we can conclude that the dynamics at hand in this model are not satisfactory.
 
-In this case, the best fit light curve is found to lie close to the radio data, with $\chi^2 = 3.97/10 \sim 0.4$. The corresponding light curve is shown figure \ref{radial}.
+The best-fit mono-kinetic spherical model has parameters $n = 2 \times 10^{-5}$ cm\sp{--3}, $E_0 = 3 \times 10^51$, $\Gamma_0 = 5$, $\epsilon_B = 4 \times 10^{-3}$.
 
-\fig{radial}{0.5}{The best-fit light curve for the synchrotron emission model with a radially structured outflow.}
+\bf{A radially structured quasi-spherical remnant. }We now turn to the radially-structured remnant model. Recall this is a spherical outflow, but with components of various initial velocities, as if the central engine had had an extended ejection activity. This results in a continuous catching-up of the shock formed by the fastest matter by slower matter when the shock decelerates. After the whole outflow has caught up to the shock, the dynamics are identical to those of a mono-kinetic outflow, but starting from the slowest velocity of the outflow.
 
-The dynamical regime shift from catching-up to mono-kinetic shell allows for the sharp maximum of the light curve around 160~d post-merger. Remarkelbly, the increasing and the decreasing phase of the radio data are both correctly followed. We conclude that among the three models we have confronted, a radially structured quasi-spherical remnant reproduces the radio data with the most fidelity.
+In this case, the best fit light curve is found to lie close to the radio data, with $\chi^2 = 3.97/10 \sim 0.4$. The corresponding light curve is shown Figure \ref{radial}.
+
+\fig{radial}{0.7}{The 3~GHz best-fit light curve for the synchrotron emission model with a radially structured outflow. This model has parameters as reported in Table \ref{cocoon}}
+
+The dynamical regime shift from catching-up to mono-kinetic shell allows for the sharp maximum of the light curve around 160~d post-merger. Remarkabely, the increasing and the decreasing phase of the radio data are both correctly followed. We conclude that among the three models we have confronted, a radially structured quasi-spherical remnant reproduces the radio data with the most fidelity.
+
+We will discuss of this topic in Section 6.1, but we can as of now signal its importance: there is some degeneracy in the model parameters. Even if the light curve of Figure \ref{radial} is the best-fit model, some models with different parameter values produce acceptable fits.
 
 
 \subsection{Conclusion}
 
-In conclusion, we have shown that in our model of synchrotron emission from shocked interstellar material as the origin of the afterglow of MMT170817, the most likely configuration is that the ejecta forming the shock has a quasi-spherical structure, and was ejected with a total kinetic energy of $\sim~6~\times 10^{50}$~erg, with Lorentz factors in the range $\sim~2-3$, and it is expanding into a medium of number density $\sim~8~\times~10^{-4}$~cm\sp{-3} and a magnetic microphysical parameter of $\sim~1~\times~10^{-3}$. Details on the actual best-fit parameters and their confidence intervals can be found in table \ref{cocoon}.
+In conclusion, we have shown that in our model of synchrotron emission from shocked interstellar material as the origin of the afterglow of MMT170817, the most likely configuration is that the ejecta forming the shock has a quasi-spherical geometry, and was ejected with a total kinetic energy of $\sim~6~\times 10^{50}$~erg, with Lorentz factors in the range $\sim~2-3$, and it is expanding into a medium of number density $\sim~8~\times~10^{-4}$~cm\sp{-3} and a magnetic microphysical redistribution parameter of $\sim~1~\times~10^{-3}$. Details on the actual best-fit parameters and their confidence intervals can be found in Table \ref{cocoon}.
 
 \section{Discussion around the results from the afterglow modelling}
+
+Building on the results of the afterglow modelling from the previous section, we will now deepen our study of the exterior medium of the merger, and address the questions \it{Was a relativistic jet produced during the merger?} and \it{Which afterglows would we have seen as observers from different viewing angles?}
 
 \subsection{General discussion}
 
 \bf{Degeneracy of parameters and tightness of fit. }Overall, there is an important degeneracy among the parameters of the radially-structured quasi-spherical model, as indicated by the low $\chi^2_{\rm{red}}$ of 0.4. Indeed, the cited best-fit values are indicative of the typical parameter to obtain the radio data, but small deviations from these values still produce acceptable light curves.
 
-This is illustrated by studying the correlations between parameters. For the two external medium parameters $n$ and $\epsilon_B$, the $\chi^2$ map projected on the ($n$, $\epsilon_B$) plane around the best fit values is presented in figure \ref{n_epsilon_B}. The correlation coefficient between the two variables is --0.6. Physically, a model is found tobe as close tothe data than the same model with a higher density and a lower magnetic parameter. This may be understood grossely by noticing that $B \propto \sqrt(\epsilon_B n)$, and thus for a same $\Gamma(r)$ (which depends on $n$), the emission will be equivalent by approximately conserving $\epsilon_B n$.
+This is illustrated by studying the correlations between parameters. For the two external medium parameters $n$ and $\epsilon_B$, the $\chi^2$ map projected on the ($n$, $\epsilon_B$) plane around the best fit values is presented in Figure \ref{n_epsilon_B}. The correlation coefficient between the two variables is --0.6. Physically, a model is found to be as close to the data than the same model with a higher density and a lower magnetic parameter. This may be understood grossely by noticing that $B \propto \sqrt{\epsilon_B n}$, and thus for a same $\Gamma(r)$ (which is subject to $n$), the emission will be equivalent by approximately conserving $\epsilon_B n$.
 
 \begin{table}
 \begin{center}
@@ -486,28 +529,29 @@ $\bar{u_M}$ & $3.19\pm1.$ \\
 \end{figure}
 
 
-Similarly, we observe a strong anti-correlation between the dynamical parameter $u_m$ and $n$, as shown figure \ref{n_epsilon_B}. We observe that for $u_m$ values smaller than best-fit, the global fitting error is invariant long lines of constant $nu_m^{-\beta}$, where $\beta~\sim~5~=\alpha$. Coming back to the dynamical equation ($V(r) = 4\pi r^3/3$):
+Similarly, we observe a strong anti-correlation between the dynamical parameter $u_m$ and $n$, as shown Figure \ref{n_epsilon_B}. We observe that for $u_m$ values smaller than best-fit, the global fitting error is invariant long lines of constant $nu_m^{-\beta}$, where $\beta~\sim~5~=\alpha$. Coming back to the dynamical equation ($V(r) = 4\pi r^3/3$):
 
-$$V(r)c^2 n (u_m^{-\alpha} - u_M^{-\alpha}) = E_0 (u^{-\alpha} - u_M^{-\alpha}) $$
+$$V(r)(u_m^{-\alpha} - u_M^{-\alpha}) n c ^ 2= E_0 (u^{-\alpha} - u_M^{-\alpha}) $$
 
-It appears that if $u_m^{-\alpha} \gg u_M^{-\alpha}$, which is the case for our $\alpha = 5$ and $u_m < \bar{u_m} \sim 1.5$, then the dynamic equation simplifies to:
+It appears that if $u_m^{-\alpha} \gg u_M^{-\alpha}$, which is the case for our $\alpha = 5$ , $u_m < \bar{u_m} \sim 1.5$ and $\bar{u_M} \sim 3.2$, then the dynamic equation simplifies to:
 
-$$V(r)c^2 n u_m^{-\alpha} = E_0 (u^{-\alpha} - u_M^{-\alpha}) $$
+$$V(r) u_m^{-\alpha} nc^2 = E_0 (u^{-\alpha} - u_M^{-\alpha}) $$
 
-by which the dynamics are solely determined by the product $n u_m^{-\alpha}$ as suggested by the anti-correlation we observe.
+by which the dynamics are determined by the product $n u_m^{-\alpha}$ and no longer by both $n$ and $u_m$, as suggested by the anti-correlation we observe.
 
-Also, we deduce from table \ref{cocoon} that the best-constrained parameter is $u_m$. As explained previously, $u_m$ determines the momentwhen the dynamics switch from the catching-up phase to the monokinetic regime, consistently producing a sharp break in the dynamical behavior and thus in the light-curve. As the radio data point out, the flux features a sharp light curve maximum, and it is thus understood that the time of dynamical regime shift must be well determined and thus $u_m$ tightly constrained.
+Also, we deduce from Table \ref{cocoon} that the best-constrained parameter is $u_m$. As explained previously, $u_m$ determines the moment when the dynamics switch from the catching-up phase to the monokinetic regime, consistently producing a sharp break in the dynamical behavior and thus in the light-curve. As the radio data point out, the flux features a sharp light curve maximum, and it is thus understood that the time of dynamical regime shift must be well determined and thus $u_m$ tightly constrained.
 
-\bf{What \it{is} the ejected matter? }As we have seen, the aterglow does not likely originate from a post-GRB relativistic jet. It is more likely in a quasi-spherical shape, and was ejected with inhomogeneous velocities. This unfortunately does not inform us on the nature of this ejected matter, i.e. its composition, the process during which, when and from where it was ejected.
+\bf{What \it{is} the ejected matter? }As we have seen, the aterglow does not likely originate from a relativistic jet. It is more likely in a quasi-spherical shape, and was ejected with inhomogeneous velocities. This unfortunately does not inform us on the nature of this ejected matter, i.e. its composition, the process during which, when and from where it was ejected.
 
-It may have been ejected by the friction of the two neutron stars upon coalescence, and later have formed an accretion disk around the final central object and finally been blown away by a thermal neutrino wind, producing the kilonova radiation in the process. It may also be have been emitted by an intermediate central compact object during its relaxation to its final structure as a black hole or neutron star.
+It may have been ejected by the friction of the two neutron stars upon coalescence, and later have formed an accretion disk around the final central object and finally been blown away by a thermal neutrino wind, producing the blue kilonova radiation in the process. It may also be have been emitted by an intermediate central compact object during its relaxation to its final structure as a black hole or neutron star.
 
-It is likely that the answers to these interrogations lie in the signatures of earlier phases of the phenomenon, such as the kilonova. In particular, as illustrated in figure \ref{gbmax} and table \ref{cocoon}, the maximum ejection velocity $u_M$ is the most poorly constrained parameter of the radially-structured quasi-spherical model, for lack of early radio points.
+It is likely that the answers to these interrogations lie in the signatures of earlier phases of the phenomenon, such as the kilonova. In particular, as illustrated in Figure \ref{gbmax} and Table \ref{cocoon}, the maximum ejection velocity $u_M$ is the most poorly constrained parameter of the radially-structured quasi-spherical model, for lack of early radio points.
 
 \fig{gbmax}{0.7}{Radially structured model light curves with varying $u_M$ and best-fit values for all other paramters. $u_M$ would be better constrained with earlier flux measurements.}
 
+Measuring radio fluxes at earlier times would allow better constraints on $u_M$ and thus a better understanding of the ejection conditions, and therefore of the nature of the ejected matter. This of course requires more sensitive instruments.
 
-Measuring radio fluxes at earlier times would allow better constraints on $u_M$ and thus a better understanding of the ejection conditions, and therefore of the nature of the ejected matter.
+How much more sensitive? The first measured radio points have fluxes of 17~$\mu$Jy, indicative of the limit sensitivity of current instruments. With the increase and decrease temporal indices of th light curve, we may infer that radio points at 10 days post merger would have required a sensitivity a factor of 1.5 better, and points at 1 day post-merger a factor of 8 better. With the current sensitivity, the radio afterglow signal should be lost at 2 years post-merger. Counting on a factor of 5 sensitivity increase with respect to current instruments announced for SKA1-mid \cite{62}, radio points would have been measured at 2 days post-merger, and the signal would continue to be followed until 7 years post merger. All of these perspectives are promising for better constraints on $u_M$ and thus on the nature of the ejecta.
 
 Furthermore, it is possible that the matter currently plowing the exterior medium was not ejected simultaneously. Indeed, in the so-called \it{cocoon model} (\cite{42, 5}, ), a relativistic jet impacts some previously ejected matter, depositing supplementary kinetic energy, and thereby \it{choking} the GRB. This results in no classical jet-produced GRB, but rather in a higher-energy quasi-spherical ejecta producing a weak GRB and eventually a quasi-spherical remnant and shock. Nonetheless, these models concern the origin of the shock-forming matter while our calculations are only concerned with the geometry of this matter and it's final velocity distribution.
 
@@ -515,33 +559,32 @@ Furthermore, it is possible that the matter currently plowing the exterior mediu
 \subsection{The external medium}
 The best-fit density parameter $\sim~10^{-3}~\rm{cm}^{-3}$ value is broadly consistent with typical values inside gas-rarified early-type galaxies such as NGC4993 (\cite{44}).
 
-More precisely, according to recent measurements of HI 21-cm fluxes in the host galaxy of MMT170817 (\cite{12}), an upper limit on the galaxtic density of atomic hydrogen is found to be $n_{\rm{HI}} < 4 \times 10^{-2}~\rm{cm}^{-3}$. If we suppose (as we have already done in our calculations) that the local medium is composed essentially of hydrogen, this upper limit is consistent with our model's predictions.
+More precisely, according to recent measurements of HI 21-cm fluxes in the host galaxy of MMT170817 (\cite{12}), an upper limit on the mean galactic density of atomic hydrogen is found to be $n_{\rm{HI}} < 4 \times 10^{-2}~\rm{cm}^{-3}$. If we suppose that the local medium is composed essentially of hydrogen, this upper limit is consistent with our model's predictions.
 
-Similarly, with a star formation rate measured to $\sim~10\sp{-2}~\Ms/\rm{yr}$ (\cite{9}) and using the Kennicut-Schmidt law  \cite{43}, the average density of HI in NGC4993 is estimated to $\sim~4 \times 10^{-3}~\rm{cm}^{-3}$ (\cite{12}), assuming the HI content to extend out to $\sim~18~\rm{kpc}$ from the center of NGC4993. This is roughly a factor of 2 above our prediction. As illustrated in figure \ref{galac}, the projected position of the coalescence site is well inside the buldge of NGC4993. The angular distance from the merger site to the center of the galaxy is $\sim~10,6''$, equivalent to 2.12~kpc at 40~Mpc.
+Similarly, with a star formation rate measured to $\sim~10\sp{-2}~\Ms/\rm{yr}$ (\cite{9}) and using the Kennicut-Schmidt law  \cite{43}, the average density of HI in NGC4993 is estimated to $\sim~4 \times 10^{-3}~\rm{cm}^{-3}$ (\cite{12}), assuming the HI content to extend out to $\sim~18~\rm{kpc}$ from the center of NGC4993. This is roughly a factor of 5 above our prediction. As illustrated in Figure \ref{galac}, the projected position of the coalescence site is well inside the buldge of NGC4993. The angular distance from the merger site to the center of the galaxy is $\sim~10,6''$, equivalent to 2.12~kpc at 40~Mpc.
 
-Consequently, the discrepancy in estimates of local density can be explained either by the fact that the merger site is in fact in a peripheral region of the galaxy, where the density is lower than the average, or on the contrary that the merger site is well inside the galaxy as suggested by the projected position, but the gas and dust content of NGC4993 does not follow an ordinary radially-decreasing profile. This last possibility is further supported by the presence of shell structures in NGC4993 as shown by \cite{33}, indicating a recent galactic merger event implicating the host galaxy, therefore explaining a non-trivial distribution of gas in NGC4993 and finally the possibility for lower-than-average densities even in central regions of the galaxy.
+Consequently, the discrepancy --~if it is significant, no uncertainties are mentionned in \cite{12}~-- in estimates of local density can be explained either by the fact that \textit{(i)} the merger site is in fact in a peripheral region of the galaxy, where the density is lower than the average, or on the contrary that \textit{(ii)} the merger site is well inside the galaxy as suggested by the projected position, but the gas and dust content of NGC4993 does not follow an ordinary radially-decreasing profile. This last possibility is further supported by the presence of shell structures in NGC4993 as shown by \cite{33}, indicating a recent galactic merger event implicating the host galaxy, therefore explaining a non-trivial distribution of gas in NGC4993 and finally the possibility for lower-than-average densities even in central regions of the galaxy.
 
-How likely is the merger site to be in the central region of NGC4993? Supposing that the merger site was drawn from a uniform distribution of points in the galaxy of radius $R_G$, the observation of the projected radial distance at $R_\rm{proj} = 2.12$~kpc implies a posterior probability distribution for the actual radial distance $R$ from the galacitc center to the merger locus. This distribution is illustrated in fig \ref{prob}, where we have followed \cite{12} in taking $R_G = 9$~kpc (stellar extent).
+How likely is the merger site to be in the central region of NGC4993? Supposing that the merger site was drawn from a uniform distribution of points in the galaxy of radius $R_G$, the observation of the projected radial distance at $R_\rm{proj} = 2.12$~kpc implies a posterior probability distribution for the actual radial distance $R$ from the galacitc center to the merger locus. This distribution is illustrated in Figure \ref{prob}, where we have followed \cite{12} in taking $R_G = 9$~kpc (stellar extent).
 
 \fig{prob}{0.7}{Probability density distribution for the radial distance of the merger locus to the galactic center, knowing the projected radial distance to be 2.12~kpc, and supposing the merger point drawn at random in the 9~kpc-radius galaxy.}
 
-We observe that the distribution is highly peaked around the projected distance, and nearly uniform in the rest of the density space. It is thus likely that the merger site is really in the center of the galaxy, and if it is not then no further conclusion can be drawn.
+We observe that this posterior distribution is essentially flat, and a simple integration shows that the peaked region around $R_\rm{proj}$ does not significantly increase the probability that the merger site be indeed at a distance $R_\rm{proj}$ from the center. Thus, we conclude that the projected position does not help to determine the actual position of the site in the galaxy, and a conclusion between cases \it{(i)} and \it{(ii)} described previousely cannot be drawn.
 
-\fig{galac}{0.8}{Localisation of the merger site as projected on the sky plane in NGC4993 (\cite{33}).}
+\fig{galac}{0.8}{\it{Left:} Localisation of the merger site as projected on the sky plane in NGC4993. \it{Right:} Best-fit Sersic profile subtracted image of the NGC4993. Notice the shells indicating a recent galactic merger event supporting a non-trivial density profile (\cite{33}).}
+
+What's more, our model shows that the spatial extent of the remnant reaches scales of $\sim$~1~pc. On this scale, galactic density can well vary from the galactic average density. Thus, regardless of the position of the remnant in the galaxy conclusions on the discrepancy between HI-inferred densities and our model predictions cannot be teken.
 
 \fig{n_vary}{0.7}{Radially structured model light curves with varying exterior density $n$ and best-fit values for other parameters.}
 
 
-
-
 \subsection{What of the standard relativistic jet?}
 
-We found in the previous section that the radio observations could not be understood as the afterglow emission from a jet-structured outflow. Nonetheless, this jet is predicted by standard model of short GRBs. The non-observation of a jet-like afterglow emission therefore constrains the characteristics of any relativistic jet which would have occured and produced the GRB. Furthermore, if we require coherence of these constrained jets with sGRB observations and models, then constrains on the characteristics of the exterior medium are found.
+We found in the previous section that the radio observations could not be understood as the afterglow emission from a jet-structured outflow. Nonetheless, this jet is predicted by standard model of short GRBs. The non-observation of a jet-like afterglow emission therefore constrains the characteristics of any relativistic jet which would have occured and produced the GRB.
 
-What can we learn of the eventual relativistic jet from its non-observation until now?
+%Furthermore, if we require coherence of these constrained jets with sGRB observations and models, then constrains on the characteristics of the exterior medium are found.
 
-What can we infer on the external medium by confronting these jets with sGRB observations?
-
+Here, we will thus answer the question: \it{What can we learn of the eventual relativistic jet from its non-observation until now?}
 
 \bf{Hiding the jet afterglow.} How may we translate the non-observation of the jet in terms of jet afterglow time of peak and peak flux?
 
@@ -551,7 +594,7 @@ $$F_j^p < F^{\rm{obs}}(\nu, t_j^p) $$
 
 Figure \ref{fmaxtmax} illustrates our method to translate this into conditions in parameter space. Suppose that $F_j^p$ and $t_j^p$ are given in terms of a power-law on the parameters $E_j$, $n$, etc. which we will note $p_1$, $p_2$ for now. That is:
 
-\cen{$F_j^p = F_0 p_1^{\alpha_1} p_2{^\alpha_2} \dots$}
+\cen{$F_j^p = F_0 p_1^{\alpha_1} p_2^{\alpha_2} \dots$}
 
 and
 
@@ -569,19 +612,21 @@ Which in fact results in a \it{sublinear condition} on the parameters for the je
 
 $$(\alpha_1 - \gamma \beta_1) \log p_1 + (\alpha_2 - \gamma \beta_2) \log p_2 + \dots < \log \left( \frac{\Fobs t_0 ^\gamma}{F_0} \right) $$
 
-The gemoetrical interpretation of this is simple: the indices $\alpha_i$ and $\beta_i$ are just the coordinates of the vectors by which is dispaced themaximum of the jet afterglow if the parameters are multiplied by 10. The hiding condition is then simply the condition on any linear combination of these vectors so that the jet remain hidden when displacing the maximum, hence changing the underlying parameters.
+The geometrical interpretation of this is simple: the indices $\alpha_i$ and $\beta_i$ are just the coordinates of the vectors by which is displaced the maximum of the jet afterglow if the parameters are multiplied by 10. The hiding condition is then simply the condition on any linear combination of these vectors so that the jet remain hidden when displacing the maximum, hence changing the underlying parameters.
 
 \fig{fmaxtmax}{0.7}{Illustration of the method used to obtain constraints on the relativistic jet. Changing the jet parameters will displace the maximum of the jet afterglow light curve along the vectors showed here. Requiring that the maximum be always weaker than the radio points amounts to sublinear conditions on the jet parameters.}
 
 
-After a thorough exploration of the parameter space, we infer that the peak time and peak flux of a jet-induced afterglow consistently scale like the following with the jet parameters and exterior medium parameters\footnote{The initial Lorentz factor of the ejecta $\Gamma_0$ is not relevant here because as detailed in the previous section, the dynamics in the relativistic deceleration phase (during which the peak occurs) no longer depend on $\Gamma_0$}:
+After a thorough exploration of the parameter space, we infer that the peak time and peak flux of a jet-induced afterglow consistently scale like the following with the jet parameters and exterior medium parameters\footnote{The initial Lorentz factor of the ejecta $\Gamma_0$ is not relevant here because as detailed in \it{Appendix B.3}, the dynamics in the relativistic deceleration phase (during which the peak occurs) no longer depend on $\Gamma_0$}:
 
 \begin{align}\label{ft}
     F_j^p &= 121~\mu\rm{Jy} \left(\frac{E_j}{10^{52}~\rm{erg}} \right)^{} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{4/5} \left(\frac{\epsilon_B}{10^{-3}} \right)^{4/5} \left(\frac{\theta_{\rm{obs}}}{0.25~\rm{rd}} \right)^{-4.3} \left(\frac{\theta_j}{0.1~\rm{rd}} \right)^{2} \\
 t_j^p &= 37.4~\rm{d} \left(\frac{E_j}{10^{52}~\rm{erg}} \right)^{1/3} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-1/3} \left(\frac{\theta_{\rm{obs}}}{0.25~\rm{rd}} \right)^{8/3}
 \end{align}
 
-We model the observed light curve as a broken power-law as illustrated in figure \ref{fmaxtmax}. We obtain the following:
+We note that an analytical derivation of these scalings would greatly enlighten the discussion we are having here, as is part of the ectivity which will follow this work.
+
+We model the observed light curve as a broken power-law as illustrated in Figure \ref{fmaxtmax}. We obtain the following:
 
 \[
 \Fobs({3~\rm{GHz}}) = \left\{ \begin{array}{lr}
@@ -602,26 +647,29 @@ taking the central values on the power-law fitting of the light curve.
 
 In turn, this translates in parameter space to\footnote{We introduce the notations $\xx{E_j} = \log \left(\frac{E_j}{10^{52}~\rm{erg}} \right)$, $\xx{n} = \log \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)$, $\xx{\epsilon_B} = \log \left(\frac{\epsilon_B}{10^{-3}} \right)$, $\xx{\theta_{\rm{obs}}} = \log \left(\frac{\theta_{\rm{obs}}}{0.25~\rm{rd}} \right)$, $\xx{\theta_j} = \log \left(\frac{\theta_j}{0.1~\rm{rd}} \right)$.}:
 
-\[ \left\{ \begin{array}{l}
+\begin{equation}
+    \label{sublin}
+ \left\{ \begin{array}{l}
 			0.736 \xx{E_j} + 1.06\xx{n} + \xx{\epsilon_B} - 5.35\xx{\theta_{\rm{obs}}} + 2\xx{\theta_j} < -0.531\\
 			\rm{and}\\
 			1.43 \xx{E_j} + 0.37\xx{n} + \xx{\epsilon_B} - 0.49\xx{\theta_{\rm{obs}}} + 2\xx{\theta_j} < 0.74
 			\end{array}
-\]
-
-
+\end{equation}
 
 These are two sublinear conditions in the 5-dimensional space of jet and medium parameters which are implied by the non-observation of a jet-induced afterglow.
 
-We will now further discuss the eventuality of a relativistic jet and constrain the external medium by specifying some values for some of the parameters in these two sublinear conditions. These values will come either from our previous results (on $n$ and $\epsilon_B$, coming from the fitting to the radially structured remnant light curve), or results from the gravitational wave community (on $\theta_{\rm{obs}}$ mainly) or previous observations and models for GRBs (on $E_j$).
+We will now further discuss the eventuality of a relativistic jet by specifying some values for some of the parameters in these two sublinear conditions. These values will come from our previous results (on $n$ and $\epsilon_B$, coming from the fitting to the radially structured remnant light curve), and results from the gravitational wave community (on $\theta_{\rm{obs}}$ mainly)
 
 
+%For various values of $f_\gamma$, for $\thetaobs = \thetaobs^{GW}$ and $\thetaobs^{GW} / 2$, we plot the exclusion diagram in the $(n, \epsilon_B)$ plane in Figure \ref{n_epsilon_B_sup}. We have superimposed the error map from the radially structured model (Figure \ref{n_epsilon_B}) for reference.
 
-\bf{Further constraints on the external medium.} We will now use these set of conditions to better constrain the external parameters $n$ and $\epsilon_B$.
+%\fig{n_epsilon_B_sup}{0.7}{Superposition of the error map on the fitting of $n$ and $epsilon_B$ to the quasi-spherical radially structured remnant and of the sublinear constraints on these parameters obtained from the hiding of the jet.}
 
-In order to obtain conditions of $n$ and $\epsilon_B$ only, we must estimate values for $E_j$, $\thetaobs$ and $\theta_j$. Then, the two sublinear constrains which we have derived from the non-pbservation of a jet-like geometry will concern only the exterior medium, through $n$ and $\epsilon_B$.
+\bf{Discussion on the intrinsic characteristics of the jet.} We turn to constraining the instrinsic characteristics of the jet. The two sublinear conditions in Eq. \ref{sublin} that we have established imply all 5 parameters of a jet afterglow. If we seek constrains on the jet parameters only ($E_j$, $\theta_j$), independently of exterior factors, then we must fix the three parameters $n$, $\epsilon_B$ and $\thetaobs$. Lukily, we have estimates for $n$, $\epsilon_B$ as provided by our fitting to the radially structured model which we can take. Also, we can vary $\thetaobs$ in the range indicated by the gravitaional wave data from GW170817.
 
-Which estimate for $E_j$? The fluence of GRB170817A is $(2.08\pm0.2)\times10^{-7}$~erg~cm\sp{-2}, and the isotropic equivalent dissipated energy is $E^{\rm{iso}}_\gamma$~... . In the standard vision where the GRB was produced by a relativistic jet, this is the total kinetic energy of the jet which was dissipated in gamma rays. The kinetic energy of the jet producing the afterglow is thus the remainder of this kinetic energy. By denoting $E^K_0$ the initial kinetic energyof the jet, we thus have:
+Before we proceed, it is interesting to establish a scale for $E_j$, a scale which will in the future allow us to compare merger event jet afterglows with GRB energetics.
+
+Which estimate for $E_j$? The fluence of GRB170817A is $(2.08\pm0.2)\times10^{-7}$~erg~cm\sp{-2}, and the isotropic equivalent dissipated energy is $E^{\rm{iso}}_\gamma$~$6 \times 10^{47}$~erg. In the standard vision where the GRB was produced by a relativistic jet, this is the total kinetic energy of the jet which was dissipated in gamma rays. The kinetic energy of the jet producing the afterglow is thus the remainder of this kinetic energy. By denoting $E^K_0$ the initial kinetic energy of the jet, we thus have:
 
 $$E^K_0 = E^{\rm{iso}}_\gamma + E_j$$
 
@@ -629,29 +677,38 @@ $E_j$ still designating the kinetic energy available for the afterglow of the je
 
 $$E_j = \frac{1 - f_\gamma}{f_\gamma} E^{\rm{iso}}_\gamma $$
 
-As for the viewing angle, the gravitational wave data indicates an upper limit $\thetaobs < \thetaobs^{GW} = 28\deg$. We will thus consider various viewing angles below this limit.
+The constraints in the ($E_j$, $\theta_j$) plane are illustrated in Figure \ref{ejthetaj}. The non-shaded region corresponds to possible hidden jets given the likely values of $n$ and $\epsilon_B$ provided by the fitting of the afterglow with a spherical radially structured remnant.
 
-For various values of $f_\gamma$, for $\thetaobs = \thetaobs^{GW}$ and $\thetaobs^{GW} / 2$, we plot the exclusion diagram in the $(n, \epsilon_B)$ plane in figure \ref{n_epsilon_B_sup}. We have superimposed the error map from the radially structured model (figure \ref{n_epsilon_B}) for reference.
+\fig{ejthetaj}{0.7}{Constraints on the intrinsic parameters of the relativistic jet, as visualized in the $(\theta_j, E_j)$ plane for various values of $\theta_{\rm{obs}}$ below $\thetaobs^{\rm{max}} = 28\deg$. Indicative energy scales corresponding to different gamma efficiencies for GR170817A are also present.}
 
-\fig{n_epsilon_B_sup}{0.7}{Superposition of the error map on the fitting of $n$ and $epsilon_B$ to the quasi-spherical radially structured remnant and of the sublinear constraints on these parameters obtained from the hiding of the jet.}
-
-\bf{Discussion on the intrinsic characteristics of the jet.} We now turn to constraining the instrinsic characteristics of the jet. Again, the two sublinear conditions that we have established imply all 5 parameters of a jet afterglow. If we seek constrains on the jet parameters only ($E_j$, $\theta_j$), independently of exterior factors, then we must fix the three parameters $n$, $\epsilon_B$ and $\thetaobs$. Lukily, we have estimates for $n$, $\epsilon_B$ as provided by our fitting to the radially structured model which we can take. Also, we can as above vary $\thetaobs$ in the range indicated by the gravitaional wave data from GW170817.
-
-These constraints in the ($E_j$, $\theta_j$) plane are illustrated in figure \ref{ejthetaj}. The non-shaded region corresponds to possible hidden jets given the likely values of $n$ and $\epsilon_B$ provided by the fitting of the afterglow with a spherical radially structured remnant.
-
-\fig{ejthetaj}{0.7}{Constraints on the intrinsic parameters of the relativistic jet, as visualized in the $(\theta_j, E_j)$ plane for various values of $\theta_{\rm{obs}}$ below $\thetaobs^{\rm{max}} = 28\deg$. }
+We observe that the jet is strongly constrained. Indeed, any jet with a opening angle over 10 deg must have a isotropic-equivalet kinetic energy below $10^{52}$~erg, which is a typical value for GRB jets. The total (not isotropic) energy is thus lower than $10^49$~erg.
 
 \bf{What would we have seen as on-axis observers of these hidden jets?} As testified by the power of $-4.3$ on the $\thetaobs$ term in \ref{ft}, the maximum signal of a jet afterglow is largely suppressed by large viewing angles. Thus, some of these hidden jets (the afterglow of which is unobserved if seen off-axis) would likely have produced important afterglows if seen on-axis.
 
-To study this, we take a typical hidden jet (one in the white region of figure \ref{ejthetaj}), and plot the light-curvewhich would have been observed with smaller viewing angles. This is represented on figure \ref{jet_theta}.
+To study this, we take a typical hidden jet (one in the white region of Figure \ref{ejthetaj}), and plot the light-curvewhich would have been observed with smaller viewing angles. This is represented on Figure \ref{jet_theta}.
 
-\fig{jet_theta}{0.7}{Afterglow light curves of on-axis observers for a hidden jet.}
+\fig{jet_theta}{0.7}{Afterglow light curves of on-axis observers for a hidden jet. Observe the jet-break in the jet light curves which radically change the slopes.}
 
 We observe that this jet, which remains hidden for viewing angles down to $\sim~12$~deg, would have completely dominated the afterglow had it been observed with viewing angles less than $\sim~10$~deg.
 
 
-\bf{Jet-induced bumps.} Of course, our hiding condition on the maximum of the jet afterglow does not fully characterize the non-observation of a jet afterglow. Indeed, if the jet afterglow decays slower than the $t^{-1.3}$ of the radio data, than the jet can create bumps, as illustrated in figure \ref{bump}. Thus, the parameter space which we have excluded here is in fact too loose of a constraint on the jet. In the data of MMT170817 a bump has yet to be found.
+\bf{Jet-induced bumps.} Of course, our hiding condition on the maximum of the jet afterglow does not fully characterize the non-observation of a jet afterglow. Indeed, if the jet afterglow decays slower than the $t^{-1.3}$ of the radio data, than the jet can produce a \it{rebrightning} of the light curve --~a so-called \it{bump}~--, as illustrated in Figure \ref{bump}. Thus, the parameter space which we have excluded here is in fact too loose of a constraint on the jet. In the data of MMT170817 a bump has yet to be found.
 
-\fig{bump}{0.5}{A jet afterglow which complies to our hiding condition (the maximum is weaker than the data at the time of maximum), yet the afterglow is clearly apparent.}
+\fig{bump}{0.7}{A jet afterglow which complies to our hiding condition (the maximum is weaker than the data at the time of maximum), yet the afterglow is clearly apparent.}
 
+
+\subsection{Conclusion: what have we learned?}
+
+In the studying of the 3~GHz radio fluxes from the afterglow of MMT170817, we have learned the following:
+
+\begin{enumerate}
+    \item The remnant of MMT170817 has a quasi-spherical geometry.
+    \item A near-spherical shock was formed upon contact of ejecta with a total kinetic energy of $\sim$~10\sp{50}~erg on the circum-merger medium. The shock was first formed by matter with a Lorentz factor of $\sim$~3, and was then progressively caught-up by a tail of ejecta with Lorentz factors down to $\sim$~2, continuously injecting energy into the shock. This catching-up phase led to the slow increase of the radio synchrotron emission. The end of the catching-up phase marked the maximum of the light curve, and the beginning of a phase in which the shock is a single-speed shell.
+
+    \item The remnant is expanding in a medium of number density $\sim$~10\sp{--3}~cm\sp{--3}, consistent with the expected densities of elliptical galaxies such as NGC4993. Some measurements of HI densities using 21-cm fluxes indicate a global galactic mean density higher than this, implying that the merger occured in a peripheral region of NGC4993. Nonetheless, the sky-plane-projected position found near the galactic center does not inform us more on the actual radial position of the merger point in the galaxy. Finally, NGC4993 having recently ($\lsim$~250~Myr) taken part in a galactic merger, density variations of this amplitude on scales of the remnant's size ($\sim$~1 pc) are not excluded.
+
+    \item If a relativistic jet was produced during the merger phenomenon, it is strongly constrained by the non-observation of its signature in the afterglow flux. More precisely, given the characteristics of the external medium deduced from the study of the remnant's geometry and dynamical structure, any jet with a opening angle larger than 10~deg cannot have a total kinetic energy larger than $\sim~10^{49}$~erg.
+
+    \item This energy limit is fairly low, pointing to the fact that GRB170817A may not have been produced by a jet, and calls for another explanation of the GRB event, and of the production of GRBs in general in the context of neutron star mergers. Nonetheless, even these non-energetic jets would have dominated the afterglow had they been seen on-axis, which should be the case for some future events, and these will likely better inform us on the role of jets in binary neutron mergers
+\end{enumerate}
 %\end{multicols}
