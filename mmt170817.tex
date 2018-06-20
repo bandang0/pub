@@ -1,20 +1,30 @@
 \documentclass[11pt]{article}
 
-\usepackage{amsmath}%,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx, amscd, mathrsfs}
-\usepackage[utf8]{inputenc}
-\usepackage[hmargin={3.5cm,3.5cm},top=4cm,bottom=4cm]{geometry}
+\usepackage{amsmath,amsthm,verbatim,amssymb,amsfonts,amscd, graphicx, amscd, mathrsfs}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{color}
 \usepackage{listings}
 \usepackage{lmodern}
-\usepackage{hyperref}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{caption}
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{float}
-%\usepackage{breqn}
+\usepackage[round]{natbib}
+
 \graphicspath{ {img/} }
 
+\geometry{
+  paper=a4paper, % Change to letterpaper for US letter
+  top=1.5cm, % Top margin
+  bottom=1.5cm, % Bottom margin
+  left=2cm, % Left margin
+  right=2cm, % Right margin
+  %showframe, % Uncomment to show how the type block is set on the page
+}
 
 \renewcommand{\bf}[1]{\textbf{#1}}
 \renewcommand{\it}[1]{\textit{#1}}
@@ -23,7 +33,7 @@
 \renewcommand{\sp}[1]{\textsuperscript{#1}}
 \renewcommand{\p}{^{\prime}}
 \renewcommand{\Fobs}{F^{\rm{obs}}}
-\renewcommand{\tobs}{{t_{\rm{obs}}}}
+\renewcommand{\tobs}{t_{\rm{obs}}}
 \renewcommand{\thetaobs}{\theta_{\rm{obs}}}
 \renewcommand{\Ms}{M_{\odot}}
 \renewcommand{\fig}[3]{
@@ -32,7 +42,6 @@
 \includegraphics[width=#2\linewidth]{#1}
 \caption{#3}
 \label{#1}
-
 \end{center}
 \end{figure}
 }
@@ -40,16 +49,14 @@
 \renewcommand{\eq}[2]{
 \begin{equation}
 \label{#1}
-
 #2
-
 \end{equation}
 }
 
 \renewcommand{\cen}[1]{
-  \begin{center}
+  \begin{equation}
   #1
-  \end{center}
+  \end{equation}
 }
 
 \renewcommand{\xx}[1]{{x_{#1}}}
@@ -60,15 +67,6 @@
 
 \renewcommand{\bar}[1]{{\overline{#1}}}
 \def \bangle{ \atopwithdelims \langle \rangle}
-
-\geometry{
-  paper=a4paper, % Change to letterpaper for US letter
-  top=1.5cm, % Top margin
-  bottom=1.5cm, % Bottom margin
-  left=2cm, % Left margin
-  right=2cm, % Right margin
-  %showframe, % Uncomment to show how the type block is set on the page
-}
 
 \lstset{ %
   backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
@@ -92,31 +90,26 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
+\bibliographystyle{plainnat}
 
 \include{frontmatter}
 
 \tableofcontents
 
 \newpage
+\pagenumbering{arabic}
 \include{part1}
 
 \include{part2}
 
 \include{part3}
-
-
-
 \include{appendix}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
 \listoffigures
-
-\newpage
 \listoftables
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newpage
-\include{bib}
 
+\bibliography{mmt170817}
 \end{document}

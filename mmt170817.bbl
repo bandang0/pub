@@ -1,0 +1,489 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Abbott} et~al.(2017{\natexlab{a}}){Abbott}, {Abbott}, {Abbott},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, {Adya}, and
+  et~al.]{23}
+B.~P. {Abbott}, R.~{Abbott}, T.~D. {Abbott}, F.~{Acernese}, K.~{Ackley},
+  C.~{Adams}, T.~{Adams}, P.~{Addesso}, R.~X. {Adhikari}, V.~B. {Adya}, and
+  et~al.
+\newblock {GW170817: Observation of Gravitational Waves from a Binary Neutron
+  Star Inspiral}.
+\newblock \emph{Physical Review Letters}, 119\penalty0 (16):\penalty0 161101,
+  October 2017{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevLett.119.161101}.
+
+\bibitem[{Abbott} et~al.(2017{\natexlab{b}}){Abbott}, {Abbott}, {Abbott},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, {Adya}, and
+  et~al.]{37}
+B.~P. {Abbott}, R.~{Abbott}, T.~D. {Abbott}, F.~{Acernese}, K.~{Ackley},
+  C.~{Adams}, T.~{Adams}, P.~{Addesso}, R.~X. {Adhikari}, V.~B. {Adya}, and
+  et~al.
+\newblock {Gravitational Waves and Gamma-Rays from a Binary Neutron Star
+  Merger: GW170817 and GRB 170817A}.
+\newblock \emph{\apjl}, 848:\penalty0 L13, October 2017{\natexlab{b}}.
+\newblock \doi{10.3847/2041-8213/aa920c}.
+
+\bibitem[{Abbott} et~al.(2017{\natexlab{c}}){Abbott}, {Abbott}, {Abbott},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, {Adya}, and
+  et~al.]{51}
+B.~P. {Abbott}, R.~{Abbott}, T.~D. {Abbott}, F.~{Acernese}, K.~{Ackley},
+  C.~{Adams}, T.~{Adams}, P.~{Addesso}, R.~X. {Adhikari}, V.~B. {Adya}, and
+  et~al.
+\newblock {Multi-messenger Observations of a Binary Neutron Star Merger}.
+\newblock \emph{\apjl}, 848:\penalty0 L12, October 2017{\natexlab{c}}.
+\newblock \doi{10.3847/2041-8213/aa91c9}.
+
+\bibitem[{Abbott} et~al.(2018){Abbott}, {Abbott}, {Abbott}, {Abernathy},
+  {Acernese}, {Ackley}, {Adams}, {Adams}, {Addesso}, {Adhikari}, and
+  et~al.]{54}
+B.~P. {Abbott}, R.~{Abbott}, T.~D. {Abbott}, M.~R. {Abernathy}, F.~{Acernese},
+  K.~{Ackley}, C.~{Adams}, T.~{Adams}, P.~{Addesso}, R.~X. {Adhikari}, and
+  et~al.
+\newblock {Prospects for observing and localizing gravitational-wave transients
+  with Advanced LIGO, Advanced Virgo and KAGRA}.
+\newblock \emph{Living Reviews in Relativity}, 21:\penalty0 3, April 2018.
+\newblock \doi{10.1007/s41114-018-0012-9}.
+
+\bibitem[{Alexander} et~al.(2018){Alexander}, {Margutti}, {Blanchard}, {Fong},
+  {Berger}, {Hajela}, {Eftekhari}, {Chornock}, {Cowperthwaite}, {Giannios},
+  {Guidorzi}, {Kathirgamaraju}, {MacFadyen}, {Metzger}, {Nicholl}, {Sironi},
+  {Villar}, {Williams}, {Xie}, and {Zrake}]{29}
+K.~D. {Alexander}, R.~{Margutti}, P.~K. {Blanchard}, W.~{Fong}, E.~{Berger},
+  A.~{Hajela}, T.~{Eftekhari}, R.~{Chornock}, P.~S. {Cowperthwaite},
+  D.~{Giannios}, C.~{Guidorzi}, A.~{Kathirgamaraju}, A.~{MacFadyen}, B.~D.
+  {Metzger}, M.~{Nicholl}, L.~{Sironi}, V.~A. {Villar}, P.~K.~G. {Williams},
+  X.~{Xie}, and J.~{Zrake}.
+\newblock {A Decline in the X-ray through Radio Emission from GW170817
+  Continues to Support an Off-Axis Structured Jet}.
+\newblock \emph{ArXiv e-prints}, May 2018.
+
+\bibitem[{Berger}(2014)]{28}
+E.~{Berger}.
+\newblock {Short-Duration Gamma-Ray Bursts}.
+\newblock \emph{\araa}, 52:\penalty0 43--105, August 2014.
+\newblock \doi{10.1146/annurev-astro-081913-035926}.
+
+\bibitem[{Blandford} and {McKee}(1976)]{59}
+R.~D. {Blandford} and C.~F. {McKee}.
+\newblock {Fluid dynamics of relativistic blast waves}.
+\newblock \emph{Physics of Fluids}, 19:\penalty0 1130--1138, August 1976.
+\newblock \doi{10.1063/1.861619}.
+
+\bibitem[{Cappellari}(2016)]{44}
+M.~{Cappellari}.
+\newblock {Structure and Kinematics of Early-Type Galaxies from Integral Field
+  Spectroscopy}.
+\newblock \emph{\araa}, 54:\penalty0 597--665, September 2016.
+\newblock \doi{10.1146/annurev-astro-082214-122432}.
+
+\bibitem[{Chevalier}(1982)]{56}
+R.~A. {Chevalier}.
+\newblock {Young supernova remnants}.
+\newblock In M.~J. {Rees} and R.~J. {Stoneham}, editors, \emph{NATO Advanced
+  Science Institutes (ASI) Series C}, volume~90 of \emph{NATO Advanced Science
+  Institutes (ASI) Series C}, pages 419--432, November 1982.
+
+\bibitem[{Daigne} and {Mochkovitch}(2007)]{50}
+F.~{Daigne} and R.~{Mochkovitch}.
+\newblock {The low-luminosity tail of the GRB distribution: the case of GRB
+  980425}.
+\newblock \emph{\aap}, 465:\penalty0 1--8, April 2007.
+\newblock \doi{10.1051/0004-6361:20066080}.
+
+\bibitem[{D'Avanzo} et~al.(2014){D'Avanzo}, {Salvaterra}, {Bernardini}, {Nava},
+  {Campana}, {Covino}, {D'Elia}, {Ghirlanda}, {Ghisellini}, {Melandri},
+  {Sbarufatti}, {Vergani}, and {Tagliaferri}]{36}
+P.~{D'Avanzo}, R.~{Salvaterra}, M.~G. {Bernardini}, L.~{Nava}, S.~{Campana},
+  S.~{Covino}, V.~{D'Elia}, G.~{Ghirlanda}, G.~{Ghisellini}, A.~{Melandri},
+  B.~{Sbarufatti}, S.~D. {Vergani}, and G.~{Tagliaferri}.
+\newblock {A complete sample of bright Swift short gamma-ray bursts}.
+\newblock \emph{\mnras}, 442:\penalty0 2342--2356, August 2014.
+\newblock \doi{10.1093/mnras/stu994}.
+
+\bibitem[{D'Avanzo} et~al.(2018){D'Avanzo}, {Campana}, {Salafia}, {Ghirlanda},
+  {Ghisellini}, {Melandri}, {Bernardini}, {Branchesi}, {Chassande-Mottin},
+  {Covino}, {D'Elia}, {Nava}, {Salvaterra}, {Tagliaferri}, and {Vergani}]{13}
+P.~{D'Avanzo}, S.~{Campana}, O.~S. {Salafia}, G.~{Ghirlanda}, G.~{Ghisellini},
+  A.~{Melandri}, M.~G. {Bernardini}, M.~{Branchesi}, E.~{Chassande-Mottin},
+  S.~{Covino}, V.~{D'Elia}, L.~{Nava}, R.~{Salvaterra}, G.~{Tagliaferri}, and
+  S.~D. {Vergani}.
+\newblock {The evolution of the X-ray afterglow emission of GW 170817/ GRB
+  170817A in XMM-Newton observations}.
+\newblock \emph{\aap}, 613:\penalty0 L1, May 2018.
+\newblock \doi{10.1051/0004-6361/201832664}.
+
+\bibitem[Dewdney(2015)]{62}
+P.~Dewdney.
+\newblock Ska1 system baselinev2 description.
+\newblock SKAO, 2015.
+\newblock URL
+  \url{https://www.skatelescope.org/wp-content/uploads/2014/03/SKA-TEL-SKO-0000308_SKA1_System_Baseline_v2_DescriptionRev01-part-1-signed.pdf}.
+
+\bibitem[{Dobie} et~al.(2018){Dobie}, {Kaplan}, {Murphy}, {Lenc}, {Mooley},
+  {Lynch}, {Corsi}, {Frail}, {Kasliwal}, and {Hallinan}]{10}
+D.~{Dobie}, D.~L. {Kaplan}, T.~{Murphy}, E.~{Lenc}, K.~P. {Mooley}, C.~{Lynch},
+  A.~{Corsi}, D.~{Frail}, M.~{Kasliwal}, and G.~{Hallinan}.
+\newblock {A Turnover in the Radio Light Curve of GW170817}.
+\newblock \emph{\apjl}, 858:\penalty0 L15, May 2018.
+\newblock \doi{10.3847/2041-8213/aac105}.
+
+\bibitem[{Drout} et~al.(2017){Drout}, {Piro}, {Shappee}, {Kilpatrick}, {Simon},
+  {Contreras}, {Coulter}, {Foley}, {Siebert}, {Morrell}, {Boutsia}, {Di Mille},
+  {Holoien}, {Kasen}, {Kollmeier}, {Madore}, {Monson}, {Murguia-Berthier},
+  {Pan}, {Prochaska}, {Ramirez-Ruiz}, {Rest}, {Adams}, {Alatalo},
+  {Ba{\~n}ados}, {Baughman}, {Beers}, {Bernstein}, {Bitsakis}, {Campillay},
+  {Hansen}, {Higgs}, {Ji}, {Maravelias}, {Marshall}, {Moni Bidin}, {Prieto},
+  {Rasmussen}, {Rojas-Bravo}, {Strom}, {Ulloa}, {Vargas-Gonz{\'a}lez}, {Wan},
+  and {Whitten}]{38}
+M.~R. {Drout}, A.~L. {Piro}, B.~J. {Shappee}, C.~D. {Kilpatrick}, J.~D.
+  {Simon}, C.~{Contreras}, D.~A. {Coulter}, R.~J. {Foley}, M.~R. {Siebert},
+  N.~{Morrell}, K.~{Boutsia}, F.~{Di Mille}, T.~W.-S. {Holoien}, D.~{Kasen},
+  J.~A. {Kollmeier}, B.~F. {Madore}, A.~J. {Monson}, A.~{Murguia-Berthier},
+  Y.-C. {Pan}, J.~X. {Prochaska}, E.~{Ramirez-Ruiz}, A.~{Rest}, C.~{Adams},
+  K.~{Alatalo}, E.~{Ba{\~n}ados}, J.~{Baughman}, T.~C. {Beers}, R.~A.
+  {Bernstein}, T.~{Bitsakis}, A.~{Campillay}, T.~T. {Hansen}, C.~R. {Higgs},
+  A.~P. {Ji}, G.~{Maravelias}, J.~L. {Marshall}, C.~{Moni Bidin}, J.~L.
+  {Prieto}, K.~C. {Rasmussen}, C.~{Rojas-Bravo}, A.~L. {Strom}, N.~{Ulloa},
+  J.~{Vargas-Gonz{\'a}lez}, Z.~{Wan}, and D.~D. {Whitten}.
+\newblock {Light curves of the neutron star merger GW170817/SSS17a:
+  Implications for r-process nucleosynthesis}.
+\newblock \emph{Science}, 358:\penalty0 1570--1574, December 2017.
+\newblock \doi{10.1126/science.aaq0049}.
+
+\bibitem[{Gehrels} et~al.(2009){Gehrels}, {Ramirez-Ruiz}, and {Fox}]{26}
+N.~{Gehrels}, E.~{Ramirez-Ruiz}, and D.~B. {Fox}.
+\newblock {Gamma-Ray Bursts in the Swift Era}.
+\newblock \emph{\araa}, 47:\penalty0 567--617, September 2009.
+\newblock \doi{10.1146/annurev.astro.46.060407.145147}.
+
+\bibitem[{Gill} and {Granot}(2018)]{7}
+R.~{Gill} and J.~{Granot}.
+\newblock {Afterglow Imaging and Polarization of Misaligned Structured GRB Jets
+  and Cocoons: Breaking the Degeneracy in GRB 170817A}.
+\newblock \emph{\mnras}, May 2018.
+\newblock \doi{10.1093/mnras/sty1214}.
+
+\bibitem[{Goldstein} et~al.(2017){Goldstein}, {Veres}, {Burns}, {Briggs},
+  {Hamburg}, {Kocevski}, {Wilson-Hodge}, {Preece}, {Poolakkil}, {Roberts},
+  {Hui}, {Connaughton}, {Racusin}, {von Kienlin}, {Dal Canton}, {Christensen},
+  {Littenberg}, {Siellez}, {Blackburn}, {Broida}, {Bissaldi}, {Cleveland},
+  {Gibby}, {Giles}, {Kippen}, {McBreen}, {McEnery}, {Meegan}, {Paciesas}, and
+  {Stanbro}]{52}
+A.~{Goldstein}, P.~{Veres}, E.~{Burns}, M.~S. {Briggs}, R.~{Hamburg},
+  D.~{Kocevski}, C.~A. {Wilson-Hodge}, R.~D. {Preece}, S.~{Poolakkil}, O.~J.
+  {Roberts}, C.~M. {Hui}, V.~{Connaughton}, J.~{Racusin}, A.~{von Kienlin},
+  T.~{Dal Canton}, N.~{Christensen}, T.~{Littenberg}, K.~{Siellez},
+  L.~{Blackburn}, J.~{Broida}, E.~{Bissaldi}, W.~H. {Cleveland}, M.~H. {Gibby},
+  M.~M. {Giles}, R.~M. {Kippen}, S.~{McBreen}, J.~{McEnery}, C.~A. {Meegan},
+  W.~S. {Paciesas}, and M.~{Stanbro}.
+\newblock {An Ordinary Short Gamma-Ray Burst with Extraordinary Implications:
+  Fermi-GBM Detection of GRB 170817A}.
+\newblock \emph{\apjl}, 848:\penalty0 L14, October 2017.
+\newblock \doi{10.3847/2041-8213/aa8f41}.
+
+\bibitem[{Gottlieb} et~al.(2018){Gottlieb}, {Nakar}, and {Piran}]{42}
+O.~{Gottlieb}, E.~{Nakar}, and T.~{Piran}.
+\newblock {The cocoon emission - an electromagnetic counterpart to
+  gravitational waves from neutron star mergers}.
+\newblock \emph{\mnras}, 473:\penalty0 576--584, January 2018.
+\newblock \doi{10.1093/mnras/stx2357}.
+
+\bibitem[{Hallinan} et~al.(2017){Hallinan}, {Corsi}, {Mooley}, {Hotokezaka},
+  {Nakar}, {Kasliwal}, {Kaplan}, {Frail}, {Myers}, {Murphy}, {De}, {Dobie},
+  {Allison}, {Bannister}, {Bhalerao}, {Chandra}, {Clarke}, {Giacintucci}, {Ho},
+  {Horesh}, {Kassim}, {Kulkarni}, {Lenc}, {Lockman}, {Lynch}, {Nichols},
+  {Nissanke}, {Palliyaguru}, {Peters}, {Piran}, {Rana}, {Sadler}, and
+  {Singer}]{12}
+G.~{Hallinan}, A.~{Corsi}, K.~P. {Mooley}, K.~{Hotokezaka}, E.~{Nakar}, M.~M.
+  {Kasliwal}, D.~L. {Kaplan}, D.~A. {Frail}, S.~T. {Myers}, T.~{Murphy},
+  K.~{De}, D.~{Dobie}, J.~R. {Allison}, K.~W. {Bannister}, V.~{Bhalerao},
+  P.~{Chandra}, T.~E. {Clarke}, S.~{Giacintucci}, A.~Y.~Q. {Ho}, A.~{Horesh},
+  N.~E. {Kassim}, S.~R. {Kulkarni}, E.~{Lenc}, F.~J. {Lockman}, C.~{Lynch},
+  D.~{Nichols}, S.~{Nissanke}, N.~{Palliyaguru}, W.~M. {Peters}, T.~{Piran},
+  J.~{Rana}, E.~M. {Sadler}, and L.~P. {Singer}.
+\newblock {A radio counterpart to a neutron star merger}.
+\newblock \emph{Science}, 358:\penalty0 1579--1583, December 2017.
+\newblock \doi{10.1126/science.aap9855}.
+
+\bibitem[{Kasliwal} et~al.(2017){Kasliwal}, {Nakar}, {Singer}, {Kaplan},
+  {Cook}, {Van Sistine}, {Lau}, {Fremling}, {Gottlieb}, {Jencson}, {Adams},
+  {Feindt}, {Hotokezaka}, {Ghosh}, {Perley}, {Yu}, {Piran}, {Allison},
+  {Anupama}, {Balasubramanian}, {Bannister}, {Bally}, {Barnes}, {Barway},
+  {Bellm}, {Bhalerao}, {Bhattacharya}, {Blagorodnova}, {Bloom}, {Brady},
+  {Cannella}, {Chatterjee}, {Cenko}, {Cobb}, {Copperwheat}, {Corsi}, {De},
+  {Dobie}, {Emery}, {Evans}, {Fox}, {Frail}, {Frohmaier}, {Goobar}, {Hallinan},
+  {Harrison}, {Helou}, {Hinderer}, {Ho}, {Horesh}, {Ip}, {Itoh}, {Kasen},
+  {Kim}, {Kuin}, {Kupfer}, {Lynch}, {Madsen}, {Mazzali}, {Miller}, {Mooley},
+  {Murphy}, {Ngeow}, {Nichols}, {Nissanke}, {Nugent}, {Ofek}, {Qi}, {Quimby},
+  {Rosswog}, {Rusu}, {Sadler}, {Schmidt}, {Sollerman}, {Steele}, {Williamson},
+  {Xu}, {Yan}, {Yatsu}, {Zhang}, and {Zhao}]{9}
+M.~M. {Kasliwal}, E.~{Nakar}, L.~P. {Singer}, D.~L. {Kaplan}, D.~O. {Cook},
+  A.~{Van Sistine}, R.~M. {Lau}, C.~{Fremling}, O.~{Gottlieb}, J.~E. {Jencson},
+  S.~M. {Adams}, U.~{Feindt}, K.~{Hotokezaka}, S.~{Ghosh}, D.~A. {Perley},
+  P.-C. {Yu}, T.~{Piran}, J.~R. {Allison}, G.~C. {Anupama},
+  A.~{Balasubramanian}, K.~W. {Bannister}, J.~{Bally}, J.~{Barnes},
+  S.~{Barway}, E.~{Bellm}, V.~{Bhalerao}, D.~{Bhattacharya}, N.~{Blagorodnova},
+  J.~S. {Bloom}, P.~R. {Brady}, C.~{Cannella}, D.~{Chatterjee}, S.~B. {Cenko},
+  B.~E. {Cobb}, C.~{Copperwheat}, A.~{Corsi}, K.~{De}, D.~{Dobie}, S.~W.~K.
+  {Emery}, P.~A. {Evans}, O.~D. {Fox}, D.~A. {Frail}, C.~{Frohmaier},
+  A.~{Goobar}, G.~{Hallinan}, F.~{Harrison}, G.~{Helou}, T.~{Hinderer},
+  A.~Y.~Q. {Ho}, A.~{Horesh}, W.-H. {Ip}, R.~{Itoh}, D.~{Kasen}, H.~{Kim},
+  N.~P.~M. {Kuin}, T.~{Kupfer}, C.~{Lynch}, K.~{Madsen}, P.~A. {Mazzali}, A.~A.
+  {Miller}, K.~{Mooley}, T.~{Murphy}, C.-C. {Ngeow}, D.~{Nichols},
+  S.~{Nissanke}, P.~{Nugent}, E.~O. {Ofek}, H.~{Qi}, R.~M. {Quimby},
+  S.~{Rosswog}, F.~{Rusu}, E.~M. {Sadler}, P.~{Schmidt}, J.~{Sollerman},
+  I.~{Steele}, A.~R. {Williamson}, Y.~{Xu}, L.~{Yan}, Y.~{Yatsu}, C.~{Zhang},
+  and W.~{Zhao}.
+\newblock {Illuminating gravitational waves: A concordant picture of photons
+  from a neutron star merger}.
+\newblock \emph{Science}, 358:\penalty0 1559--1565, December 2017.
+\newblock \doi{10.1126/science.aap9455}.
+
+\bibitem[{Kennicutt}(1998)]{43}
+R.~C. {Kennicutt}, Jr.
+\newblock {The Global Schmidt Law in Star-forming Galaxies}.
+\newblock \emph{\apj}, 498:\penalty0 541--552, May 1998.
+\newblock \doi{10.1086/305588}.
+
+\bibitem[{Kim} et~al.(2017){Kim}, {Schulze}, {Resmi}, {Gonz{\'a}lez-L{\'o}pez},
+  {Higgins}, {Ishwara-Chandra}, {Bauer}, {de Gregorio-Monsalvo}, {De Pasquale},
+  {de Ugarte Postigo}, {Kann}, {Mart{\'{\i}}n}, {Oates}, {Starling}, {Tanvir},
+  {Buchner}, {Campana}, {Cano}, {Covino}, {Fruchter}, {Fynbo}, {Hartmann},
+  {Hjorth}, {Jakobsson}, {Levan}, {Malesani}, {Micha{\l}owski},
+  {Milvang-Jensen}, {Misra}, {O{\rsquo}Brien}, {S{\'a}nchez-Ram{\'{\i}}rez},
+  {Th{\"o}ne}, {Watson}, and {Wiersema}]{61}
+S.~{Kim}, S.~{Schulze}, L.~{Resmi}, J.~{Gonz{\'a}lez-L{\'o}pez}, A.~B.
+  {Higgins}, C.~H. {Ishwara-Chandra}, F.~E. {Bauer}, I.~{de Gregorio-Monsalvo},
+  M.~{De Pasquale}, A.~{de Ugarte Postigo}, D.~A. {Kann}, S.~{Mart{\'{\i}}n},
+  S.~R. {Oates}, R.~L.~C. {Starling}, N.~R. {Tanvir}, J.~{Buchner},
+  S.~{Campana}, Z.~{Cano}, S.~{Covino}, A.~S. {Fruchter}, J.~P.~U. {Fynbo},
+  D.~H. {Hartmann}, J.~{Hjorth}, P.~{Jakobsson}, A.~J. {Levan}, D.~{Malesani},
+  M.~J. {Micha{\l}owski}, B.~{Milvang-Jensen}, K.~{Misra}, P.~T.
+  {O{\rsquo}Brien}, R.~{S{\'a}nchez-Ram{\'{\i}}rez}, C.~C. {Th{\"o}ne}, D.~J.
+  {Watson}, and K.~{Wiersema}.
+\newblock {ALMA and GMRT Constraints on the Off-axis Gamma-Ray Burst 170817A
+  from the Binary Neutron Star Merger GW170817}.
+\newblock \emph{\apjl}, 850:\penalty0 L21, December 2017.
+\newblock \doi{10.3847/2041-8213/aa970b}.
+
+\bibitem[Landau and Lifschitz(1987)]{39}
+L.D. Landau and E.M. Lifschitz.
+\newblock Fluid mechanics (second edition).
+\newblock pages 505 -- 514. Pergamon, second edition edition, 1987.
+\newblock ISBN 978-0-08-033933-7.
+\newblock \doi{https://doi.org/10.1016/B978-0-08-033933-7.50023-4}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/B9780080339337500234}.
+
+\bibitem[{Lloyd-Ronning} and {Zhang}(2004)]{47}
+N.~M. {Lloyd-Ronning} and B.~{Zhang}.
+\newblock {On the Kinetic Energy and Radiative Efficiency of Gamma-Ray Bursts}.
+\newblock \emph{\apj}, 613:\penalty0 477--483, September 2004.
+\newblock \doi{10.1086/423026}.
+
+\bibitem[{Margutti} et~al.(2018){Margutti}, {Alexander}, {Xie}, {Sironi},
+  {Metzger}, {Kathirgamaraju}, {Fong}, {Blanchard}, {Berger}, {MacFadyen},
+  {Giannios}, {Guidorzi}, {Hajela}, {Chornock}, {Cowperthwaite}, {Eftekhari},
+  {Nicholl}, {Villar}, {Williams}, and {Zrake}]{17}
+R.~{Margutti}, K.~D. {Alexander}, X.~{Xie}, L.~{Sironi}, B.~D. {Metzger},
+  A.~{Kathirgamaraju}, W.~{Fong}, P.~K. {Blanchard}, E.~{Berger},
+  A.~{MacFadyen}, D.~{Giannios}, C.~{Guidorzi}, A.~{Hajela}, R.~{Chornock},
+  P.~S. {Cowperthwaite}, T.~{Eftekhari}, M.~{Nicholl}, V.~A. {Villar}, P.~K.~G.
+  {Williams}, and J.~{Zrake}.
+\newblock {The Binary Neutron Star Event LIGO/Virgo GW170817 160 Days after
+  Merger: Synchrotron Emission across the Electromagnetic Spectrum}.
+\newblock \emph{\apjl}, 856:\penalty0 L18, March 2018.
+\newblock \doi{10.3847/2041-8213/aab2ad}.
+
+\bibitem[{Mooley} et~al.(2018){Mooley}, {Nakar}, {Hotokezaka}, {Hallinan},
+  {Corsi}, {Frail}, {Horesh}, {Murphy}, {Lenc}, {Kaplan}, {de}, {Dobie},
+  {Chandra}, {Deller}, {Gottlieb}, {Kasliwal}, {Kulkarni}, {Myers}, {Nissanke},
+  {Piran}, {Lynch}, {Bhalerao}, {Bourke}, {Bannister}, and {Singer}]{5}
+K.~P. {Mooley}, E.~{Nakar}, K.~{Hotokezaka}, G.~{Hallinan}, A.~{Corsi}, D.~A.
+  {Frail}, A.~{Horesh}, T.~{Murphy}, E.~{Lenc}, D.~L. {Kaplan}, K.~{de},
+  D.~{Dobie}, P.~{Chandra}, A.~{Deller}, O.~{Gottlieb}, M.~M. {Kasliwal}, S.~R.
+  {Kulkarni}, S.~T. {Myers}, S.~{Nissanke}, T.~{Piran}, C.~{Lynch},
+  V.~{Bhalerao}, S.~{Bourke}, K.~W. {Bannister}, and L.~P. {Singer}.
+\newblock {A mildly relativistic wide-angle outflow in the neutron-star merger
+  event GW170817}.
+\newblock \emph{\nat}, 554:\penalty0 207--210, February 2018.
+\newblock \doi{10.1038/nature25452}.
+
+\bibitem[Nelder and Mead(1965)]{20}
+J.~A. Nelder and R.~Mead.
+\newblock A simplex method for function minimization.
+\newblock \emph{The Computer Journal}, 7\penalty0 (4):\penalty0 308--313, 1965.
+\newblock \doi{10.1093/comjnl/7.4.308}.
+\newblock URL \url{http://dx.doi.org/10.1093/comjnl/7.4.308}.
+
+\bibitem[{Palmese} et~al.(2017){Palmese}, {Hartley}, {Tarsitano}, {Conselice},
+  {Lahav}, {Allam}, {Annis}, {Lin}, {Soares-Santos}, {Tucker}, {Brout},
+  {Banerji}, {Bechtol}, {Diehl}, {Fruchter}, {Garc{\'{\i}}a-Bellido}, {Herner},
+  {Levan}, {Li}, {Lidman}, {Misra}, {Sako}, {Scolnic}, {Smith}, {Abbott},
+  {Abdalla}, {Benoit-L{\'e}vy}, {Bertin}, {Brooks}, {Buckley-Geer}, {Carnero
+  Rosell}, {Carrasco Kind}, {Carretero}, {Castander}, {Cunha}, {D'Andrea}, {da
+  Costa}, {Davis}, {DePoy}, {Desai}, {Dietrich}, {Doel}, {Drlica-Wagner},
+  {Eifler}, {Evrard}, {Flaugher}, {Fosalba}, {Frieman}, {Gaztanaga}, {Gerdes},
+  {Giannantonio}, {Gruen}, {Gruendl}, {Gschwend}, {Gutierrez}, {Honscheid},
+  {Jain}, {James}, {Jeltema}, {Johnson}, {Johnson}, {Krause}, {Kron}, {Kuehn},
+  {Kuhlmann}, {Kuropatkin}, {Lima}, {Maia}, {March}, {Marshall}, {McMahon},
+  {Menanteau}, {Miller}, {Miquel}, {Neilsen}, {Ogando}, {Plazas}, {Reil},
+  {Romer}, {Sanchez}, {Schindler}, {Smith}, {Sobreira}, {Suchyta}, {Swanson},
+  {Tarle}, {Thomas}, {Thomas}, {Walker}, {Weller}, {Zhang}, and {Zuntz}]{33}
+A.~{Palmese}, W.~{Hartley}, F.~{Tarsitano}, C.~{Conselice}, O.~{Lahav},
+  S.~{Allam}, J.~{Annis}, H.~{Lin}, M.~{Soares-Santos}, D.~{Tucker},
+  D.~{Brout}, M.~{Banerji}, K.~{Bechtol}, H.~T. {Diehl}, A.~{Fruchter},
+  J.~{Garc{\'{\i}}a-Bellido}, K.~{Herner}, A.~J. {Levan}, T.~S. {Li},
+  C.~{Lidman}, K.~{Misra}, M.~{Sako}, D.~{Scolnic}, M.~{Smith}, T.~M.~C.
+  {Abbott}, F.~B. {Abdalla}, A.~{Benoit-L{\'e}vy}, E.~{Bertin}, D.~{Brooks},
+  E.~{Buckley-Geer}, A.~{Carnero Rosell}, M.~{Carrasco Kind}, J.~{Carretero},
+  F.~J. {Castander}, C.~E. {Cunha}, C.~B. {D'Andrea}, L.~N. {da Costa},
+  C.~{Davis}, D.~L. {DePoy}, S.~{Desai}, J.~P. {Dietrich}, P.~{Doel},
+  A.~{Drlica-Wagner}, T.~F. {Eifler}, A.~E. {Evrard}, B.~{Flaugher},
+  P.~{Fosalba}, J.~{Frieman}, E.~{Gaztanaga}, D.~W. {Gerdes},
+  T.~{Giannantonio}, D.~{Gruen}, R.~A. {Gruendl}, J.~{Gschwend},
+  G.~{Gutierrez}, K.~{Honscheid}, B.~{Jain}, D.~J. {James}, T.~{Jeltema},
+  M.~W.~G. {Johnson}, M.~D. {Johnson}, E.~{Krause}, R.~{Kron}, K.~{Kuehn},
+  S.~{Kuhlmann}, N.~{Kuropatkin}, M.~{Lima}, M.~A.~G. {Maia}, M.~{March}, J.~L.
+  {Marshall}, R.~G. {McMahon}, F.~{Menanteau}, C.~J. {Miller}, R.~{Miquel},
+  E.~{Neilsen}, R.~L.~C. {Ogando}, A.~A. {Plazas}, K.~{Reil}, A.~K. {Romer},
+  E.~{Sanchez}, R.~{Schindler}, R.~C. {Smith}, F.~{Sobreira}, E.~{Suchyta},
+  M.~E.~C. {Swanson}, G.~{Tarle}, D.~{Thomas}, R.~C. {Thomas}, A.~R. {Walker},
+  J.~{Weller}, Y.~{Zhang}, and J.~{Zuntz}.
+\newblock {Evidence for Dynamically Driven Formation of the GW170817 Neutron
+  Star Binary in NGC 4993}.
+\newblock \emph{\apjl}, 849:\penalty0 L34, November 2017.
+\newblock \doi{10.3847/2041-8213/aa9660}.
+
+\bibitem[{Panaitescu} and {Kumar}(2000)]{1}
+A.~{Panaitescu} and P.~{Kumar}.
+\newblock {Analytic Light Curves of Gamma-Ray Burst Afterglows: Homogeneous
+  versus Wind External Media}.
+\newblock \emph{\apj}, 543:\penalty0 66--76, November 2000.
+\newblock \doi{10.1086/317090}.
+
+\bibitem[{Piran}(1999)]{27}
+T.~{Piran}.
+\newblock {Gamma-ray bursts and the fireball model}.
+\newblock \emph{\physrep}, 314:\penalty0 575--667, June 1999.
+\newblock \doi{10.1016/S0370-1573(98)00127-6}.
+
+\bibitem[{Rybicki} and {Lightman}(1979)]{55}
+G.~B. {Rybicki} and A.~P. {Lightman}.
+\newblock \emph{{Radiative processes in astrophysics}}.
+\newblock 1979.
+
+\bibitem[Sedov(1946)]{60}
+Leonid~I Sedov.
+\newblock Propagation of strong shock waves.
+\newblock \emph{Journal of Applied Mathematics and Mechanics}, 10:\penalty0
+  241--250, 1946.
+
+\bibitem[{Smartt} et~al.(2017){Smartt}, {Chen}, {Jerkstrand}, {Coughlin},
+  {Kankare}, {Sim}, {Fraser}, {Inserra}, {Maguire}, {Chambers}, {Huber},
+  {Kr{\"u}hler}, {Leloudas}, {Magee}, {Shingles}, {Smith}, {Young}, {Tonry},
+  {Kotak}, {Gal-Yam}, {Lyman}, {Homan}, {Agliozzo}, {Anderson}, {Angus},
+  {Ashall}, {Barbarino}, {Bauer}, {Berton}, {Botticella}, {Bulla}, {Bulger},
+  {Cannizzaro}, {Cano}, {Cartier}, {Cikota}, {Clark}, {De Cia}, {Della Valle},
+  {Denneau}, {Dennefeld}, {Dessart}, {Dimitriadis}, {Elias-Rosa}, {Firth},
+  {Flewelling}, {Fl{\"o}rs}, {Franckowiak}, {Frohmaier}, {Galbany},
+  {Gonz{\'a}lez-Gait{\'a}n}, {Greiner}, {Gromadzki}, {Guelbenzu},
+  {Guti{\'e}rrez}, {Hamanowicz}, {Hanlon}, {Harmanen}, {Heintz}, {Heinze},
+  {Hernandez}, {Hodgkin}, {Hook}, {Izzo}, {James}, {Jonker}, {Kerzendorf},
+  {Klose}, {Kostrzewa-Rutkowska}, {Kowalski}, {Kromer}, {Kuncarayakti},
+  {Lawrence}, {Lowe}, {Magnier}, {Manulis}, {Martin-Carrillo}, {Mattila},
+  {McBrien}, {M{\"u}ller}, {Nordin}, {O'Neill}, {Onori}, {Palmerio},
+  {Pastorello}, {Patat}, {Pignata}, {Podsiadlowski}, {Pumo}, {Prentice}, {Rau},
+  {Razza}, {Rest}, {Reynolds}, {Roy}, {Ruiter}, {Rybicki}, {Salmon}, {Schady},
+  {Schultz}, {Schweyer}, {Seitenzahl}, {Smith}, {Sollerman}, {Stalder},
+  {Stubbs}, {Sullivan}, {Szegedi}, {Taddia}, {Taubenberger}, {Terreran}, {van
+  Soelen}, {Vos}, {Wainscoat}, {Walton}, {Waters}, {Weiland}, {Willman},
+  {Wiseman}, {Wright}, {Wyrzykowski}, and {Yaron}]{53}
+S.~J. {Smartt}, T.-W. {Chen}, A.~{Jerkstrand}, M.~{Coughlin}, E.~{Kankare},
+  S.~A. {Sim}, M.~{Fraser}, C.~{Inserra}, K.~{Maguire}, K.~C. {Chambers}, M.~E.
+  {Huber}, T.~{Kr{\"u}hler}, G.~{Leloudas}, M.~{Magee}, L.~J. {Shingles}, K.~W.
+  {Smith}, D.~R. {Young}, J.~{Tonry}, R.~{Kotak}, A.~{Gal-Yam}, J.~D. {Lyman},
+  D.~S. {Homan}, C.~{Agliozzo}, J.~P. {Anderson}, C.~R. {Angus}, C.~{Ashall},
+  C.~{Barbarino}, F.~E. {Bauer}, M.~{Berton}, M.~T. {Botticella}, M.~{Bulla},
+  J.~{Bulger}, G.~{Cannizzaro}, Z.~{Cano}, R.~{Cartier}, A.~{Cikota},
+  P.~{Clark}, A.~{De Cia}, M.~{Della Valle}, L.~{Denneau}, M.~{Dennefeld},
+  L.~{Dessart}, G.~{Dimitriadis}, N.~{Elias-Rosa}, R.~E. {Firth},
+  H.~{Flewelling}, A.~{Fl{\"o}rs}, A.~{Franckowiak}, C.~{Frohmaier},
+  L.~{Galbany}, S.~{Gonz{\'a}lez-Gait{\'a}n}, J.~{Greiner}, M.~{Gromadzki},
+  A.~N. {Guelbenzu}, C.~P. {Guti{\'e}rrez}, A.~{Hamanowicz}, L.~{Hanlon},
+  J.~{Harmanen}, K.~E. {Heintz}, A.~{Heinze}, M.-S. {Hernandez}, S.~T.
+  {Hodgkin}, I.~M. {Hook}, L.~{Izzo}, P.~A. {James}, P.~G. {Jonker}, W.~E.
+  {Kerzendorf}, S.~{Klose}, Z.~{Kostrzewa-Rutkowska}, M.~{Kowalski},
+  M.~{Kromer}, H.~{Kuncarayakti}, A.~{Lawrence}, T.~B. {Lowe}, E.~A. {Magnier},
+  I.~{Manulis}, A.~{Martin-Carrillo}, S.~{Mattila}, O.~{McBrien},
+  A.~{M{\"u}ller}, J.~{Nordin}, D.~{O'Neill}, F.~{Onori}, J.~T. {Palmerio},
+  A.~{Pastorello}, F.~{Patat}, G.~{Pignata}, P.~{Podsiadlowski}, M.~L. {Pumo},
+  S.~J. {Prentice}, A.~{Rau}, A.~{Razza}, A.~{Rest}, T.~{Reynolds}, R.~{Roy},
+  A.~J. {Ruiter}, K.~A. {Rybicki}, L.~{Salmon}, P.~{Schady}, A.~S.~B.
+  {Schultz}, T.~{Schweyer}, I.~R. {Seitenzahl}, M.~{Smith}, J.~{Sollerman},
+  B.~{Stalder}, C.~W. {Stubbs}, M.~{Sullivan}, H.~{Szegedi}, F.~{Taddia},
+  S.~{Taubenberger}, G.~{Terreran}, B.~{van Soelen}, J.~{Vos}, R.~J.
+  {Wainscoat}, N.~A. {Walton}, C.~{Waters}, H.~{Weiland}, M.~{Willman},
+  P.~{Wiseman}, D.~E. {Wright}, {\L}.~{Wyrzykowski}, and O.~{Yaron}.
+\newblock {A kilonova as the electromagnetic counterpart to a
+  gravitational-wave source}.
+\newblock \emph{\nat}, 551:\penalty0 75--79, November 2017.
+\newblock \doi{10.1038/nature24303}.
+
+\bibitem[{Villar} et~al.(2017){Villar}, {Guillochon}, {Berger}, {Metzger},
+  {Cowperthwaite}, {Nicholl}, {Alexander}, {Blanchard}, {Chornock},
+  {Eftekhari}, {Fong}, {Margutti}, and {Williams}]{57}
+V.~A. {Villar}, J.~{Guillochon}, E.~{Berger}, B.~D. {Metzger}, P.~S.
+  {Cowperthwaite}, M.~{Nicholl}, K.~D. {Alexander}, P.~K. {Blanchard},
+  R.~{Chornock}, T.~{Eftekhari}, W.~{Fong}, R.~{Margutti}, and P.~K.~G.
+  {Williams}.
+\newblock {The Combined Ultraviolet, Optical, and Near-infrared Light Curves of
+  the Kilonova Associated with the Binary Neutron Star Merger GW170817: Unified
+  Data Set, Analytic Models, and Physical Implications}.
+\newblock \emph{\apjl}, 851:\penalty0 L21, December 2017.
+\newblock \doi{10.3847/2041-8213/aa9c84}.
+
+\bibitem[{Woods} and {Loeb}(1999)]{45}
+E.~{Woods} and A.~{Loeb}.
+\newblock {Constraints on Off-Axis X-Ray Emission from Beamed Gamma-Ray
+  Bursts}.
+\newblock \emph{\apj}, 523:\penalty0 187--191, September 1999.
+\newblock \doi{10.1086/307738}.
+
+\bibitem[{Yonetoku} et~al.(2004){Yonetoku}, {Murakami}, {Nakamura}, {Yamazaki},
+  {Inoue}, and {Ioka}]{35}
+D.~{Yonetoku}, T.~{Murakami}, T.~{Nakamura}, R.~{Yamazaki}, A.~K. {Inoue}, and
+  K.~{Ioka}.
+\newblock {Gamma-Ray Burst Formation Rate Inferred from the Spectral Peak
+  Energy-Peak Luminosity Relation}.
+\newblock \emph{\apj}, 609:\penalty0 935--951, July 2004.
+\newblock \doi{10.1086/421285}.
+
+\bibitem[{Zappa} et~al.(2018){Zappa}, {Bernuzzi}, {Radice}, {Perego}, and
+  {Dietrich}]{49}
+F.~{Zappa}, S.~{Bernuzzi}, D.~{Radice}, A.~{Perego}, and T.~{Dietrich}.
+\newblock {Gravitational-Wave Luminosity of Binary Neutron Stars Mergers}.
+\newblock \emph{Physical Review Letters}, 120\penalty0 (11):\penalty0 111101,
+  March 2018.
+\newblock \doi{10.1103/PhysRevLett.120.111101}.
+
+\bibitem[{Zhang} et~al.(2007){Zhang}, {Liang}, {Page}, {Grupe}, {Zhang},
+  {Barthelmy}, {Burrows}, {Campana}, {Chincarini}, {Gehrels}, {Kobayashi},
+  {M{\'e}sz{\'a}ros}, {Moretti}, {Nousek}, {O'Brien}, {Osborne}, {Roming},
+  {Sakamoto}, {Schady}, and {Willingale}]{48}
+B.~{Zhang}, E.~{Liang}, K.~L. {Page}, D.~{Grupe}, B.-B. {Zhang}, S.~D.
+  {Barthelmy}, D.~N. {Burrows}, S.~{Campana}, G.~{Chincarini}, N.~{Gehrels},
+  S.~{Kobayashi}, P.~{M{\'e}sz{\'a}ros}, A.~{Moretti}, J.~A. {Nousek}, P.~T.
+  {O'Brien}, J.~P. {Osborne}, P.~W.~A. {Roming}, T.~{Sakamoto}, P.~{Schady},
+  and R.~{Willingale}.
+\newblock {GRB Radiative Efficiencies Derived from the Swift Data: GRBs versus
+  XRFs, Long versus Short}.
+\newblock \emph{\apj}, 655:\penalty0 989--1001, February 2007.
+\newblock \doi{10.1086/510110}.
+
+\end{thebibliography}
