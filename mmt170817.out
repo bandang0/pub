@@ -6,18 +6,18 @@
 \BOOKMARK [2][-]{subsection.2.3}{GRB170817A: the gamma-ray burst}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.4}{The afterglow signal}{section.2}% 7
 \BOOKMARK [1][-]{section.3}{Goal of this work: an insight on the geometry and dynamical structure of the remnant of MMT170817 through its afterglow}{part.1}% 8
-\BOOKMARK [0][-]{part.2}{II Modelling the afterglow of MMT170817}{}% 9
+\BOOKMARK [0][-]{part.2}{II Modeling the afterglow of MMT170817}{}% 9
 \BOOKMARK [1][-]{section.4}{The physics of afterglows: deceleration dynamics, radiation and astronomical observables}{part.2}% 10
 \BOOKMARK [2][-]{subsection.4.1}{Relativistic deceleration}{section.4}% 11
 \BOOKMARK [2][-]{subsection.4.2}{Synchrotron radiation and self-absorption}{section.4}% 12
 \BOOKMARK [2][-]{subsection.4.3}{Derivation of the astronomical observable: flux density}{section.4}% 13
 \BOOKMARK [2][-]{subsection.4.4}{An illustration of some predicted light curves}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{The afterglow of MMT170817: modelling and results}{part.2}% 15
+\BOOKMARK [1][-]{section.5}{The afterglow of MMT170817: modeling and results}{part.2}% 15
 \BOOKMARK [2][-]{subsection.5.1}{Choice and reduction of multi-wavelength data}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.2}{Can the afterglow come from a relativistic jet?}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.2}{Can the afterglow come from a relativistic jet seen off-axis?}{section.5}% 17
 \BOOKMARK [2][-]{subsection.5.3}{A quasi-spherical remnant?}{section.5}% 18
 \BOOKMARK [2][-]{subsection.5.4}{Conclusion}{section.5}% 19
-\BOOKMARK [1][-]{section.6}{Discussion around the results from the afterglow modelling}{part.2}% 20
+\BOOKMARK [1][-]{section.6}{Discussion around the results from the afterglow modeling}{part.2}% 20
 \BOOKMARK [2][-]{subsection.6.1}{General discussion}{section.6}% 21
 \BOOKMARK [2][-]{subsection.6.2}{The external medium}{section.6}% 22
 \BOOKMARK [2][-]{subsection.6.3}{What of the standard relativistic jet?}{section.6}% 23
@@ -28,5 +28,7 @@
 \BOOKMARK [2][-]{subsection.7.2}{Insights on other astronomical observables}{section.7}% 28
 \BOOKMARK [2][-]{subsection.7.3}{Insight on future modelization}{section.7}% 29
 \BOOKMARK [1][-]{section.8}{Open questions}{part.3}% 30
-\BOOKMARK [1][-]{section*.30}{Appendix A: Glossary}{part.3}% 31
-\BOOKMARK [1][-]{section*.31}{Appendix B: Details on the physics of afterglows}{part.3}% 32
+\BOOKMARK [1][-]{section*.31}{Appendices}{part.3}% 31
+\BOOKMARK [2][-]{section*.32}{Appendix A: Dissipation of kinetic energy in relativistic shocks}{section*.31}% 32
+\BOOKMARK [2][-]{section*.33}{Appendix B: Scalings of \040and r with tobs in the deceleration phases}{section*.31}% 33
+\BOOKMARK [2][-]{section*.34}{Appendix C: Scalings of m and c}{section*.31}% 34

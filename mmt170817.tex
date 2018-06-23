@@ -36,11 +36,11 @@
 \renewcommand{\tobs}{t_{\rm{obs}}}
 \renewcommand{\thetaobs}{\theta_{\rm{obs}}}
 \renewcommand{\Ms}{M_{\odot}}
-\renewcommand{\fig}[3]{
+\renewcommand{\fig}[4]{
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=#2\linewidth]{#1}
-\caption{#3}
+\caption[#4]{#3}
 \label{#1}
 \end{center}
 \end{figure}
@@ -95,6 +95,10 @@
 \include{frontmatter}
 
 \tableofcontents
+
+\newpage
+
+\quad
 
 \newpage
 \pagenumbering{arabic}

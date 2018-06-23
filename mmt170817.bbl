@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{41}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -87,6 +87,16 @@ R.~A. {Chevalier}.
 \newblock In M.~J. {Rees} and R.~J. {Stoneham}, editors, \emph{NATO Advanced
   Science Institutes (ASI) Series C}, volume~90 of \emph{NATO Advanced Science
   Institutes (ASI) Series C}, pages 419--432, November 1982.
+
+\bibitem[{Corsi} et~al.(2018){Corsi}, {Hallinan}, {Lazzati}, {Mooley},
+  {Murphy}, {Frail}, {Carbone}, {Kaplan}, {Murphy}, {Kulkarni}, and
+  {Hotokezaka}]{63}
+A.~{Corsi}, G.~W. {Hallinan}, D.~{Lazzati}, K.~P. {Mooley}, E.~J. {Murphy},
+  D.~A. {Frail}, D.~{Carbone}, D.~L. {Kaplan}, T.~{Murphy}, S.~R. {Kulkarni},
+  and K.~{Hotokezaka}.
+\newblock {An upper-limit on the linear polarization fraction of the GW170817
+  radio continuum}.
+\newblock \emph{ArXiv e-prints}, June 2018.
 
 \bibitem[{Daigne} and {Mochkovitch}(2007)]{50}
 F.~{Daigne} and R.~{Mochkovitch}.
@@ -366,6 +376,13 @@ A.~{Panaitescu} and P.~{Kumar}.
   versus Wind External Media}.
 \newblock \emph{\apj}, 543:\penalty0 66--76, November 2000.
 \newblock \doi{10.1086/317090}.
+
+\bibitem[{Panaitescu} and {Kumar}(2001)]{41}
+A.~{Panaitescu} and P.~{Kumar}.
+\newblock {Fundamental Physical Parameters of Collimated Gamma-Ray Burst
+  Afterglows}.
+\newblock \emph{\apjl}, 560:\penalty0 L49--L53, October 2001.
+\newblock \doi{10.1086/324061}.
 
 \bibitem[{Piran}(1999)]{27}
 T.~{Piran}.

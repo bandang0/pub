@@ -1,35 +1,26 @@
-\section*{Appendix A: Terminology}
-\addcontentsline{toc}{section}{Appendix A: Glossary}
+\section*{Appendices}
+\addcontentsline{toc}{section}{Appendices}
+\subsection*{Appendix A: Dissipation of kinetic energy in relativistic shocks}
+\addcontentsline{toc}{subsection}{Appendix A: Dissipation of kinetic energy in relativistic shocks}
 
-The novelty of the observing of binary neutron star mergers and the diversity of models describing this phenomenon render the full  agreement of the high-energy community on some terms difficult. That is why a concise bilingual glossary is found here.
+We will derive here the equation for the conservation of energy in the collision of two masses at relativistic speeds with dissipation of kinetic energy to internal energy. For this consider a mass $M$ in relativistic motion at a Lorentz factor $\Gamma$ impacting a small mass $m$ at rest. What will be the final energy of the small mass?
 
-\bf{Remnant (\it{Reste}). }All of the matter in the vicinity of the merger locus and which either was a part of the neutron stars or is being swept up by the latter.
-
-\glo{Quasi-spherical remnant}{}{}
-
-
-\section*{Appendix B: Details on the physics of afterglows}
-\addcontentsline{toc}{section}{Appendix B: Details on the physics of afterglows}
-\subsection*{B.1: Dissipation of kinetic energy in realtivistic shocks}
-
-We will derive here the equation for the conservation of energy in the collision of two masses at relativistic speeds with dissipation of kinetic enrgy to internal energy. For this consider a mass $M$ in relativistic motion at a Lorentz factor $\Gamma$ impacting a small mass $m$ at rest. What will be the final energy of the small mass?
-
-Let $\Gamma'$ denote the Lorentz factor of the joint mass $M + m$ after the collision. We suppose that some dissipation of kinetic energy has occured during the collision, and that the small mass has a rest energy $\gamma_i m c^2$ after the interaction.
+Let $\Gamma'$ denote the Lorentz factor of the joint mass $M + m$ after the collision. We suppose that some dissipation of kinetic energy has occurred during the collision, and that the small mass has a rest energy $\gamma_i m c^2$ after the interaction.
 
 In an external rest frame, the conservation of energy and momentum thus reads:
 
 \begin{align}
-    \Gamma Mc^2 + mc^2 &= \Gamma' Mc^2 + \Gamma' \gamma_i m \\
-    \Gamma \beta M + 0 &= \Gamma' \beta' \gamma_i m
+    \Gamma Mc^2 + mc^2 &= \Gamma' Mc^2 + \Gamma' \gamma_i m c^2\\
+    \Gamma \beta M + 0 &= \Gamma' \beta' M + \Gamma' \beta' \gamma_i m
 \end{align}
 
-It follows the post-collision speed, which is rightly decelerated:
+It follows the post-collision velocity, which is rightly decelerated:
 
 \begin{equation}\label{ttt}
     \beta' = \beta \frac{\Gamma M}{\Gamma M + m}
 \end{equation}
 
-Supposing a high initial Lorentz factor and a small $m/M$ mass ratio, we have $\beta \sim 1 - 1/2\Gamma^2$ and $\frac{\Gamma M}{\Gamma M + m} \sim 1 - m/\Gamma M$. Thus rearanging \ref{ttt} leads after some algebra to:
+Supposing a high initial Lorentz factor and a small $m/M$ mass ratio, we have $\beta \simeq 1 - 1/2\Gamma^2$ and $\frac{\Gamma M}{\Gamma M + m} \simeq 1 - m/\Gamma M$. Thus rearranging Eq.~\ref{ttt} leads after some algebra to:
 
 \begin{equation}
     \Gamma'^2 = \frac{\Gamma ^ 2}{1 + 2\Gamma \frac{m}{M}}
@@ -45,62 +36,50 @@ Thus, we conclude that:
 
 \begin{align}
     \gamma_i &= \frac{\Gamma M + m - \Gamma'M}{\Gamma'm} \\
-             &\sim \left( \frac{\Gamma}{\Gamma'} -1 \right)\frac{M}{m}\\
-             &\sim \Gamma'
+             &\simeq \left( \frac{\Gamma}{\Gamma'} -1 \right)\frac{M}{m}\\
+             &\simeq \Gamma'
 \end{align}
 
 And thus the overall energy conservation writes:
 
 \begin{equation}
+    \label{eee}
     \Gamma M + m = \Gamma'M + \Gamma'^2 m
 \end{equation}
 
 or in the continuous form after sweeping a mass $m(r)$ of exterior material:
 
-$$\Gamma_0 M + m(r) = \Gamma(r) M + \Gamma(r)^2 m(r) $$
+\begin{equation}\Gamma_0 M + m(r) = \Gamma(r) M + \Gamma(r)^2 m(r) \end{equation}
+
+Note that this result is also understood starting from the expression of the co-moving frame internal energy density at the shock (Eq.~\ref{ep}): $\epsilon\p \simeq \Gamma c^2$. Then, boosting back to the exterior frame introduces an additional $
+\Gamma$ factor, leading to Eq.~\ref{eee}.
 
 
-\subsection*{B.2: Scalings of $\nu_m$ and $\nu_c$}
-The synchrotron characteristic frequencies are found to scale as the following with the model parameters in the various dynamical phases of the afterglow. They are normalized to the parameters' values which we infer in the text. These scalings allow to compare the observation bands (X-ray, optical and radio) to the typical spectral regime shift frequencies, and thus to conclude that all the observation bands are within the same spectral regime.
+\subsection*{Appendix B: Scalings of $\Gamma$ and $r$ with $\tobs$ in the deceleration phases}
+\addcontentsline{toc}{subsection}{Appendix B: Scalings of $\Gamma$ and $r$ with $\tobs$ in the deceleration phases}
 
-\bf{Coasting phase:}
-
-$$\nu_m = 10.2~\rm{GHz} \left(\frac{\Gamma_0}{10} \right)^{4} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{1/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2}$$
-
-
-$$\nu_c = 9.56 \times 10^8~\rm{GHz} \left(\frac{\Gamma_0}{10} \right)^{-4} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-3/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2}  \left(\frac{t_{\rm{obs}}}{10~\rm{d}} \right)^{-2}$$
-
-
-\bf{Deceleraton phase:}
-
-$$\nu_m = 1.78 \times 10^{-4}~\rm{Hz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{1/2}  \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2} \left(\frac{t_{\rm{obs}}}{100~\rm{d}} \right)^{-3/2} $$
-
-
-$$\nu_c = 4.38 \times 10^{21}~\rm{GHz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{-1/2} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-1} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2} \left(\frac{t_{\rm{obs}}}{100~\rm{d}} \right)^{-1/2}$$
-
-
-\bf{Newtonian phase:}
-
-$$\nu_m = 1.46 \times 10^{-10}~\rm{Hz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-1/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2} \left(\frac{t_{\rm{obs}}}{10^5~\rm{d}} \right)^{-1/2} $$
-
-$$\nu_c = 1.11 \times 10^{40}~\rm{GHz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{-3/5} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-9/10} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2} \left(\frac{t_{\rm{obs}}}{10^5~\rm{d}} \right)^{-1/5} $$
-
-\subsection*{B.3: Scalings of $\Gamma$ and $r$ with $\tobs$ in the relativistic deceleration phase}
-
-In the relativistic deceleration phase of the dynamics of a mono-knetic remnant, we have:
-
-$$\Gamma(r) \simeq \Gamma_0 \left( \frac{R}{R_{\text{dec}}} \right)^{-3/2}$$
-
-What's more, we have:
+According to the equation for the arrival time (Eq.~\ref{tobs}), we have:
 
 \begin{align}
-    d\tobs &= (\beta - 1) dt \\
-           &= \frac{1 - \beta}{\beta} \dr/c
+    d\tobs &= (1 - \beta) dt \\
+           &= \frac{1 - \beta}{\beta} \frac{dr}{c}
 \end{align}
 
-Thus, using $\beta \simeq 1 - 1/2\Gamma^2$, we obtain:
+Thus, using $\beta \simeq 1 - 1/2\Gamma^2$ in the ultra-relativistic case, we obtain:
 
-$$d\tobs = \frac{dr}{2\Gamma^2 c} $$
+\begin{equation}d\tobs = \frac{dr}{2\Gamma^2 c} \end{equation}
+
+\bf{Coasting phase.} Thus, in the coasting phase:
+
+\begin{align}\label{coasting}
+    \Gamma &\simeq \Gamma_0 \\
+    r &\simeq 2 \Gamma_0 c^2 \tobs
+\end{align}
+
+\bf{Relativistic deceleration phase.}In the relativistic deceleration phase of the dynamics of a mono-kinetic remnant, we have:
+
+\begin{equation}\Gamma(r) \simeq \Gamma_0 \left( \frac{R}{R_{\text{dec}}} \right)^{-3/2}\end{equation}
+
 
 Therefore, we have in the deceleration phase:
 
@@ -119,4 +98,45 @@ In conclusion, in the relativistic deceleration phase, we have:
 \end{align}
 
 Moreover, seeing as $R_{\text{dec}} \propto \Gamma_0^{-2/3}$, we notice that in the relativistic deceleration phase, the dynamics no longer depend on $\Gamma_0$.
-\subsection*{B.4: Short discussion on the origin of magnetic fields in astrophysical shocks}
+
+\bf{Newtonian phase.} In this case, we have of course:
+
+\begin{equation}
+    \Gamma \simeq 1
+\end{equation}
+
+Therefore the calculation must be done without the ultra-relativistic approximation. We obtain:
+
+\begin{equation}
+    r \propto \tobs^{2/5}
+\end{equation}\\
+
+\newpage
+\subsection*{Appendix C: Scalings of $\nu_m$ and $\nu_c$}
+\addcontentsline{toc}{subsection}{Appendix C: Scalings of $\nu_m$ and $\nu_c$}
+
+The synchrotron characteristic frequencies are found to scale as the following with the model parameters in the various dynamical phases of the afterglow. They are normalized to the parameters' values which we infer in the text. These scalings allow to compare the observation bands (X-ray, optical and radio) to the typical spectral regime shift frequencies, and thus to conclude that all the observation bands are within the same spectral regime.
+
+These scalings are found using the definitions in Eqs. \ref{w}, \ref{q} and \ref{freqs} and the conclusions of \it{Appendix B}.
+\bf{Coasting phase:}
+
+\begin{align}
+    \nu_m &= 10.2~\rm{GHz} \left(\frac{\Gamma_0}{10} \right)^{4} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{1/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2}\\
+    \nu_c &= 9.56 \times 10^8~\rm{GHz} \left(\frac{\Gamma_0}{10} \right)^{-4} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-3/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2}  \left(\frac{t_{\rm{obs}}}{10~\rm{d}} \right)^{-2}
+\end{align}
+
+
+\bf{Deceleration phase:}
+
+\begin{align}
+    \nu_m &= 1.78 \times 10^{-4}~\rm{Hz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{1/2}  \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2} \left(\frac{t_{\rm{obs}}}{100~\rm{d}} \right)^{-3/2} \\
+    \nu_c &= 4.38 \times 10^{21}~\rm{GHz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{-1/2} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-1} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2} \left(\frac{t_{\rm{obs}}}{100~\rm{d}} \right)^{-1/2}
+\end{align}
+
+
+\bf{Newtonian phase:}
+
+\begin{align}
+    \nu_m &= 1.46 \times 10^{-10}~\rm{Hz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-1/2} \left(\frac{\epsilon_B}{10^{-3}} \right)^{1/2} \left(\frac{\epsilon_e}{0.1} \right)^{2} \left(\frac{\frac{p - 2}{p - 1}}{0.167} \right)^{2} \left(\frac{t_{\rm{obs}}}{10^5~\rm{d}} \right)^{-1/2}\\
+    \nu_c &= 1.11 \times 10^{40}~\rm{GHz} \left(\frac{E_0}{10^{51}~\rm{erg}} \right)^{-3/5} \left(\frac{n}{10^{-3}~\rm{cm}^{-3}} \right)^{-9/10} \left(\frac{\epsilon_B}{10^{-3}} \right)^{-3/2} \left(\frac{t_{\rm{obs}}}{10^5~\rm{d}} \right)^{-1/5}
+\end{align}

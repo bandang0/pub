@@ -8,49 +8,48 @@ A level-1 auxiliary file: part2.aux
 A level-1 auxiliary file: part3.aux
 A level-1 auxiliary file: appendix.aux
 Database file #1: mmt170817.bib
-Warning--I didn't find a database entry for "41"
 Warning--empty booktitle in 62
 Warning--empty booktitle in 39
 Warning--empty publisher in 55
-You've used 39 entries,
+You've used 41 entries,
             2773 wiz_defined-function locations,
-            845 strings with 21748 characters,
-and the built_in function-call counts, 46002 in all, are:
-= -- 3315
-> -- 6033
-< -- 19
-+ -- 2017
-- -- 1976
-* -- 4928
-:= -- 7856
-add.period$ -- 156
-call.type$ -- 39
-change.case$ -- 775
-chr.to.int$ -- 37
-cite$ -- 81
-duplicate$ -- 831
-empty$ -- 1459
-format.name$ -- 2033
-if$ -- 8816
+            853 strings with 22144 characters,
+and the built_in function-call counts, 47274 in all, are:
+= -- 3417
+> -- 6156
+< -- 20
++ -- 2058
+- -- 2015
+* -- 5049
+:= -- 8065
+add.period$ -- 163
+call.type$ -- 41
+change.case$ -- 794
+chr.to.int$ -- 39
+cite$ -- 85
+duplicate$ -- 871
+empty$ -- 1529
+format.name$ -- 2076
+if$ -- 9070
 int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 40
-newline$ -- 241
-num.names$ -- 158
-pop$ -- 1467
+missing$ -- 42
+newline$ -- 252
+num.names$ -- 166
+pop$ -- 1502
 preamble$ -- 1
-purify$ -- 736
+purify$ -- 753
 quote$ -- 0
-skip$ -- 1133
+skip$ -- 1170
 stack$ -- 0
-substring$ -- 593
-swap$ -- 97
+substring$ -- 618
+swap$ -- 101
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 424
+type$ -- 446
 warning$ -- 3
-while$ -- 144
+while$ -- 151
 width$ -- 0
-write$ -- 587
-(There were 4 warnings)
+write$ -- 614
+(There were 3 warnings)
